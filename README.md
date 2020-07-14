@@ -18,4 +18,6 @@ Aqui já precisamos da informação finalizada:
 
 6.Ver se faz sentido o _product.scss e o _productlists.scss
 
+7.Começar html
+
 
