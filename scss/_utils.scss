@@ -124,24 +124,3 @@ $sizes: (
         display: none;
     }
 }
-.visivel-t-down{
-    display: block;
-    @media(min-width: $desktop){
-        display: none;
-    }
-}
-.visivel-t-up{
-    display: none;
-    @media(min-width: $tablet){
-        display: block;
-    }
-}
-.visivel-d{
-    display: none;
-    @media(min-width: $tablet){
-        display: none;
-    }
-    @media(min-width: $desktop){
-        display: block;
-    }
-}
