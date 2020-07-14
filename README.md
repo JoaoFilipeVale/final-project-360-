@@ -8,7 +8,7 @@ DATAS:
 3.De seguida mudar na _fonts.scss
 
 com isto já temos: um normalize e um ficheiro de variáveis pronto a configurar para ficarem logo com fontes, cores e grelhas definidas sem muito esforço... é um ponto de partida sólido. não quer dizer que não tenham que alterar mais tarde, mas, ao menos, será um ponto de partida...
-(Fica feito: _fonts.scss , _grid.scss , _normalize.scss , _variables.scss )
+(Fica feito: _fonts.scss , _grid.scss , _normalize.scss , _variables.scss ) 4/12
 
 4.
 
