@@ -19,4 +19,6 @@ Aqui já precisamos da informação finalizada:
 
 - Ver se faz sentido o _product.scss e o _productlists.scss
 
+7.Começar html
+
 
