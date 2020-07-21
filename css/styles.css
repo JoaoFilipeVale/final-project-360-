@@ -1949,7 +1949,7 @@ form button {
   line-height: 24px;
 }
 
-/* line 2, ../../../../final-project-360º/scss/_header.scss */
+/* line 1, ../../../../final-project-360º/scss/_header.scss */
 .container-center-horizontal {
   display: flex;
   flex-direction: row;
@@ -1959,12 +1959,12 @@ form button {
   width: 100%;
 }
 
-/* line 12, ../../../../final-project-360º/scss/_header.scss */
+/* line 11, ../../../../final-project-360º/scss/_header.scss */
 .flexbox-container a {
   line-height: 0;
 }
 
-/* line 18, ../../../../final-project-360º/scss/_header.scss */
+/* line 17, ../../../../final-project-360º/scss/_header.scss */
 .overlap-group {
   background-color: #2E2E2E;
   flex-shrink: 0;
@@ -1974,7 +1974,7 @@ form button {
   width: 1596px;
 }
 
-/* line 27, ../../../../final-project-360º/scss/_header.scss */
+/* line 26, ../../../../final-project-360º/scss/_header.scss */
 .bg-section {
   background-color: #FFF;
   height: 882px;
@@ -1984,7 +1984,7 @@ form button {
   width: 1440px;
 }
 
-/* line 36, ../../../../final-project-360º/scss/_header.scss */
+/* line 35, ../../../../final-project-360º/scss/_header.scss */
 .download-da-app-section {
   background-color: #2E2E2E;
   height: 1000px;
@@ -1994,7 +1994,7 @@ form button {
   width: 1231px;
 }
 
-/* line 45, ../../../../final-project-360º/scss/_header.scss */
+/* line 44, ../../../../final-project-360º/scss/_header.scss */
 .rectangle {
   background-color: #FFF;
   border-radius: 18.0px;
@@ -2006,7 +2006,7 @@ form button {
   width: 1233px;
 }
 
-/* line 56, ../../../../final-project-360º/scss/_header.scss */
+/* line 55, ../../../../final-project-360º/scss/_header.scss */
 .botoes-stores {
   align-items: flex-start;
   background-color: #2E2E2E;
@@ -2021,7 +2021,7 @@ form button {
   width: 550px;
 }
 
-/* line 77, ../../../../final-project-360º/scss/_header.scss */
+/* line 76, ../../../../final-project-360º/scss/_header.scss */
 body {
   margin: 0;
   background: #FFF;
@@ -2040,7 +2040,7 @@ body {
   width: 1440.0px;
 }
 
-/* line 99, ../../../../final-project-360º/scss/_header.scss */
+/* line 98, ../../../../final-project-360º/scss/_header.scss */
 body #promobar {
   font-size: 0.7rem;
   line-height: 16px;
@@ -2048,13 +2048,13 @@ body #promobar {
 }
 
 @media (min-width: 1440px) {
-  /* line 99, ../../../../final-project-360º/scss/_header.scss */
+  /* line 98, ../../../../final-project-360º/scss/_header.scss */
   body #promobar {
     letter-spacing: 1px;
   }
 }
 
-/* line 107, ../../../../final-project-360º/scss/_header.scss */
+/* line 106, ../../../../final-project-360º/scss/_header.scss */
 body > header {
   position: -webkit-sticky;
   position: sticky;
@@ -2063,24 +2063,24 @@ body > header {
   border-bottom: 1px solid #A1A1A1;
 }
 
-/* line 113, ../../../../final-project-360º/scss/_header.scss */
+/* line 112, ../../../../final-project-360º/scss/_header.scss */
 body > header nav {
   padding-top: 8px;
 }
 
 @media (min-width: 750px) {
-  /* line 113, ../../../../final-project-360º/scss/_header.scss */
+  /* line 112, ../../../../final-project-360º/scss/_header.scss */
   body > header nav {
     padding-bottom: 8px;
   }
 }
 
-/* line 118, ../../../../final-project-360º/scss/_header.scss */
+/* line 117, ../../../../final-project-360º/scss/_header.scss */
 body > header nav #logo {
   height: 24px;
 }
 
-/* line 120, ../../../../final-project-360º/scss/_header.scss */
+/* line 119, ../../../../final-project-360º/scss/_header.scss */
 body > header nav #logo > a {
   display: inline-block;
   width: 125px;
@@ -2089,19 +2089,19 @@ body > header nav #logo > a {
   padding: 5.33333px;
 }
 
-/* line 129, ../../../../final-project-360º/scss/_header.scss */
+/* line 128, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul {
   height: 24px;
   list-style-type: none;
   margin: 0;
 }
 
-/* line 133, ../../../../final-project-360º/scss/_header.scss */
+/* line 132, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul li {
   display: inline-block;
 }
 
-/* line 135, ../../../../final-project-360º/scss/_header.scss */
+/* line 134, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul li a {
   display: inline-block;
   text-transform: uppercase;
@@ -2113,13 +2113,13 @@ body > header nav ul li a {
 }
 
 @media (min-width: 1440px) {
-  /* line 135, ../../../../final-project-360º/scss/_header.scss */
+  /* line 134, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul li a {
     letter-spacing: 2px;
   }
 }
 
-/* line 148, ../../../../final-project-360º/scss/_header.scss */
+/* line 147, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul#mainmenu {
   order: 3;
   display: flex;
@@ -2127,7 +2127,7 @@ body > header nav ul#mainmenu {
 }
 
 @media (min-width: 750px) {
-  /* line 148, ../../../../final-project-360º/scss/_header.scss */
+  /* line 147, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#mainmenu {
     display: block;
     order: 0;
@@ -2135,20 +2135,20 @@ body > header nav ul#mainmenu {
 }
 
 @media (min-width: 750px) {
-  /* line 156, ../../../../final-project-360º/scss/_header.scss */
+  /* line 155, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#mainmenu li {
     margin-right: 5.33333px;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 156, ../../../../final-project-360º/scss/_header.scss */
+  /* line 155, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#mainmenu li {
     margin-right: 16px;
   }
 }
 
-/* line 166, ../../../../final-project-360º/scss/_header.scss */
+/* line 165, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul#customermenu i {
   display: inline-block;
   font-size: 1.2rem;
@@ -2156,33 +2156,33 @@ body > header nav ul#customermenu i {
 }
 
 @media (min-width: 750px) {
-  /* line 166, ../../../../final-project-360º/scss/_header.scss */
+  /* line 165, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#customermenu i {
     margin-left: 5.33333px;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 166, ../../../../final-project-360º/scss/_header.scss */
+  /* line 165, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#customermenu i {
     margin-left: 8px;
   }
 }
 
-/* line 183, ../../../../final-project-360º/scss/_header.scss */
+/* line 182, ../../../../final-project-360º/scss/_header.scss */
 .slider {
   height: 65vh;
   background-color: #A1A1A1;
   position: relative;
 }
 
-/* line 187, ../../../../final-project-360º/scss/_header.scss */
+/* line 186, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides {
   height: 65vh;
   position: relative;
 }
 
-/* line 190, ../../../../final-project-360º/scss/_header.scss */
+/* line 189, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide {
   position: absolute;
   width: 100%;
@@ -2192,7 +2192,7 @@ body > header nav ul#customermenu i {
   overflow: hidden;
 }
 
-/* line 197, ../../../../final-project-360º/scss/_header.scss */
+/* line 196, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide img {
   position: absolute;
   min-width: 100%;
@@ -2202,7 +2202,7 @@ body > header nav ul#customermenu i {
   transform: translate(-50%, -50%);
 }
 
-/* line 205, ../../../../final-project-360º/scss/_header.scss */
+/* line 204, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide-caption {
   width: 100%;
   height: 65vh;
@@ -2219,7 +2219,7 @@ body > header nav ul#customermenu i {
 }
 
 @media (min-width: 750px) {
-  /* line 205, ../../../../final-project-360º/scss/_header.scss */
+  /* line 204, ../../../../final-project-360º/scss/_header.scss */
   .slider-slides-slide-caption {
     padding-left: 55vw;
     padding-right: 16px;
@@ -2227,21 +2227,21 @@ body > header nav ul#customermenu i {
 }
 
 @media (min-width: 1440px) {
-  /* line 205, ../../../../final-project-360º/scss/_header.scss */
+  /* line 204, ../../../../final-project-360º/scss/_header.scss */
   .slider-slides-slide-caption {
     padding-left: 60vw;
     padding-right: 16px;
   }
 }
 
-/* line 226, ../../../../final-project-360º/scss/_header.scss */
+/* line 225, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide-caption .h1 {
   font-size: 3rem;
   color: #FFF;
   margin-bottom: 16px;
 }
 
-/* line 231, ../../../../final-project-360º/scss/_header.scss */
+/* line 230, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide-caption a {
   display: inline-block;
   color: #FFF;
@@ -2252,18 +2252,18 @@ body > header nav ul#customermenu i {
   border-bottom: 1px solid #FFF;
 }
 
-/* line 239, ../../../../final-project-360º/scss/_header.scss */
+/* line 238, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide-caption a:hover {
   border-bottom-color: #727272;
 }
 
-/* line 247, ../../../../final-project-360º/scss/_header.scss */
+/* line 246, ../../../../final-project-360º/scss/_header.scss */
 .slider-next, .slider-previous {
   display: none;
 }
 
 @media (min-width: 750px) {
-  /* line 247, ../../../../final-project-360º/scss/_header.scss */
+  /* line 246, ../../../../final-project-360º/scss/_header.scss */
   .slider-next, .slider-previous {
     display: block;
     position: absolute;
@@ -2277,11 +2277,11 @@ body > header nav ul#customermenu i {
     background-color: #727272;
     color: #FFF;
   }
-  /* line 262, ../../../../final-project-360º/scss/_header.scss */
+  /* line 261, ../../../../final-project-360º/scss/_header.scss */
   .slider-next i, .slider-previous i {
     line-height: 48px;
   }
-  /* line 265, ../../../../final-project-360º/scss/_header.scss */
+  /* line 264, ../../../../final-project-360º/scss/_header.scss */
   .slider-next:hover, .slider-previous:hover {
     background-color: #FFF;
     color: #727272;
@@ -2289,13 +2289,13 @@ body > header nav ul#customermenu i {
   }
 }
 
-/* line 272, ../../../../final-project-360º/scss/_header.scss */
+/* line 271, ../../../../final-project-360º/scss/_header.scss */
 .slider-next {
   right: 0;
   border-radius: 24px 0 0 24px;
 }
 
-/* line 276, ../../../../final-project-360º/scss/_header.scss */
+/* line 275, ../../../../final-project-360º/scss/_header.scss */
 .slider-previous {
   left: 0;
   border-radius: 0 24px 24px 0;
