@@ -1,217 +1,211 @@
 @font-face {
-    font-family: '#{$icomoon-font-family}';
-    src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rqwo5a');
-    src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rqwo5a#iefix') format('embedded-opentype'),
-      url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?rqwo5a') format('truetype'),
-      url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?rqwo5a') format('woff'),
-      url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?rqwo5a##{$icomoon-font-family}') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  
-  [class^="ic-"], [class*=" ic-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: '#{$icomoon-font-family}' !important;
-    speak-as: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?o01qv6');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?o01qv6#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?o01qv6') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?o01qv6') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?o01qv6##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 
-  .ic-arrow_right {
-    &:before {
-      content: $ic-arrow_right; 
-      color: #fff;
-    }
-  }
+[class^="ic-"], [class*=" ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-  .ic-help_icon {
-    &:before {
-      content: $ic-help_icon;
-      color: #fffdfd;
-    }
-  }
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  .ic-ico_comerciante {
-    &:before {
-      content: $ic-ico_comerciante;
-      color: #fff;
-    }
+.ic-arrow_right {
+  &:before {
+    content: $ic-arrow_right;     
+    color: #fff;
   }
-
-  .ic-ico_consumidor {
-    &:before {
-      content: $ic-ico_consumidor ;
-      color: #fff;
-    }
+}
+.ic-help_icon {
+  &:before {
+    content: $ic-help_icon;     
+    color: #fffdfd;
   }
-
-  .ic-logo {
-    &:before {
-      content: $ic-logo;
-      color: #fff;
-    }
+}
+.ic-ico_comerciante {
+  &:before {
+    content: $ic-ico_comerciante;     
+    color: #fff;
   }
-
-  .ic-mdi_arrow_drop_down {
-    &:before {
-      content: $ic-mdi_arrow_drop_down;
-      color: #fff;
-    }
+}
+.ic-ico_consumidor {
+  &:before {
+    content: $ic-ico_consumidor;     
+    color: #fff;
   }
-
-  .ic-mdi_keyboard_arrow_right {
-    &:before {
-      content: $ic-mdi_keyboard_arrow_right;
-      color: #f05513;
-    }
+}
+.ic-logo {
+  &:before {
+    content: $ic-logo;     
+    color: #fff;
   }
-
-  .ic-mdi_language {
-    &:before {
-      content: $ic-mdi_language;
-      color: #fff;
-    }
+}
+.ic-mdi_arrow_drop_down {
+  &:before {
+    content: $ic-mdi_arrow_drop_down;     
+    color: #fff;
   }
-
-  .ic-search-24px{
-    &:before {
-      content: $ic-search-24px;
-      color: #fff;
-    }
+}
+.ic-mdi_keyboard_arrow_right {
+  &:before {
+    content: $ic-mdi_keyboard_arrow_right;     
+    color: #f05513;
   }
-
-  .ic-Animais {
-    &:before {
-      content: $ic-Animais;
-    }
+}
+.ic-mdi_language {
+  &:before {
+    content: $ic-mdi_language;     
+    color: #fff;
   }
-
-  .ic-Antiguidades-e-Obras-de-Arte {
-    &:before {
-      content: $ic-Antiguidades-e-Obras-de-Arte;
-    }
+}
+.ic-search-24px {
+  &:before {
+    content: $ic-search-24px;     
+    color: #fff;
   }
-
-  .ic-Cultura-e-Lazer {
-    &:before {
-      content: $ic-Cultura-e-Lazer;
-    }
+}
+.ic-Animais {
+  &:before {
+    content: $ic-Animais; 
   }
-
-  .ic-Flores-e-Plantas {
-    &:before {
-      content: $ic-Flores-e-Plantas;
-    }
+}
+.ic-Antiguidades-e-Obras-de-Arte {
+  &:before {
+    content: $ic-Antiguidades-e-Obras-de-Arte; 
   }
-
-  .ic-Fotografia{
-    &:before {
-      content: $ic-Fotografia;
-    }
+}
+.ic-Cultura-e-Lazer {
+  &:before {
+    content: $ic-Cultura-e-Lazer; 
   }
-
-  .ic-Lar{
-    &:before {
-      content: $ic-Lar;
-    }
+}
+.ic-Flores-e-Plantas {
+  &:before {
+    content: $ic-Flores-e-Plantas; 
   }
-
-  .ic-Moda-Contemporanea-e-Vintage{
-    &:before {
-      content: $ic-Moda-Contemporanea-e-Vintage;
-    }
+}
+.ic-Fotografia {
+  &:before {
+    content: $ic-Fotografia; 
   }
-
-  .ic-Moda-Infantil {
-    &:before {
-      content: $ic-Moda-Infantil;
-    }
+}
+.ic-Papelaria-e-Grafica {
+  &:before {
+    content: $ic-Papelaria-e-Grafica; 
   }
-
-  .ic-Musica {
-    &:before {
-      content: $ic-Musica;
-    }
+}
+.ic-Lar {
+  &:before {
+    content: $ic-Lar; 
   }
-
-  .ic-Ourivesaria {
-    &:before {
-      content: $ic-Ourivesaria;
-    }
+}
+.ic-Decoracao-e-Bricolage {
+  &:before {
+    content: $ic-Decoracao-e-Bricolage; 
   }
-
-  .ic-Produtos-Alimentares{
-    &:before {
-      content: $ic-Produtos-Alimentares;
-    }
+}
+.ic-Moda-Contemporanea-e-Vintage {
+  &:before {
+    content: $ic-Moda-Contemporanea-e-Vintage; 
   }
-
-  .ic-Produtos-Regionais-e-Artesanato {
-    &:before {
-      content: $ic-Produtos-Regionais-e-Artesanato;
-    }
+}
+.ic-Moda-Infantil {
+  &:before {
+    content: $ic-Moda-Infantil; 
   }
-
-  .ic-Restauracao-e-Bebidas{
-    &:before {
-      content: $ic-Restauracao-e-Bebidas;
-    }
+}
+.ic-Musica {
+  &:before {
+    content: $ic-Musica; 
   }
-
-  .ic-Sapatarias {
-    &:before {
-      content: $ic-Sapatarias;
-    }
+}
+.ic-Ourivesaria {
+  &:before {
+    content: $ic-Ourivesaria; 
   }
-
-  .ic-Saude {
-    &:before {
-      content: $ic-Saude;
-    }
+}
+.ic-Produtos-Alimentares {
+  &:before {
+    content: $ic-Produtos-Alimentares; 
   }
-
-  .ic-Servicos-de-Utilidade-Domestica {
-    &:before {
-      content: $ic-Servicos-de-Utilidade-Domestica;
-    }
+}
+.ic-Produtos-Regionais-e-Artesanato {
+  &:before {
+    content: $ic-Produtos-Regionais-e-Artesanato; 
   }
-
-  .ic-Tecnologia-e-Equipamentos-Eletronicos {
-    &:before {
-      content: $ic-Tecnologia-e-Equipamentos-Eletronicos ;
-    }
+}
+.ic-Restauracao-e-Bebidas {
+  &:before {
+    content: $ic-Restauracao-e-Bebidas; 
   }
-
-  .ic-Trajes{
-    &:before {
-      content: $ic-Trajes;
-    }
+}
+.ic-Sapatarias {
+  &:before {
+    content: $ic-Sapatarias; 
   }
-
-  .ic-Tudo{
-    &:before {
-      content: $ic-Tudo;
-    }
+}
+.ic-Acessorios-e-Marroquinaria {
+  &:before {
+    content: $ic-Acessorios-e-Marroquinaria; 
   }
-
-  .ic-Turismo {
-    &:before {
-      content: $ic-Turismo ;
-    }
+}
+.ic-Saude {
+  &:before {
+    content: $ic-Saude; 
   }
-
-  .ic-Veiculos {
-    &:before {
-      content: $ic-Veiculos;
-    }
+}
+.ic-Bem-Estar-e-Cuidados-Pessoais {
+  &:before {
+    content: $ic-Bem-Estar-e-Cuidados-Pessoais; 
   }
+}
+.ic-Servicos-de-Utilidade-Domestica {
+  &:before {
+    content: $ic-Servicos-de-Utilidade-Domestica; 
+  }
+}
+.ic-Tecnologia-e-Equipamentos-Eletronicos {
+  &:before {
+    content: $ic-Tecnologia-e-Equipamentos-Eletronicos; 
+  }
+}
+.ic-Trajes {
+  &:before {
+    content: $ic-Trajes; 
+  }
+}
+.ic-Fardas-e-Festas {
+  &:before {
+    content: $ic-Fardas-e-Festas; 
+  }
+}
+.ic-Tudo {
+  &:before {
+    content: $ic-Tudo; 
+  }
+}
+.ic-Turismo {
+  &:before {
+    content: $ic-Turismo; 
+  }
+}
+.ic-Veiculos {
+  &:before {
+    content: $ic-Veiculos; 
+  }
+}
