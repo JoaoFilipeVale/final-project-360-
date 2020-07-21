@@ -246,19 +246,19 @@ template {
 }
 
 @font-face {
-  font-family: "editstore";
-  src: url("../fonts/editstore.eot?rqwo5a");
-  src: url("../fonts/editstore.eot?rqwo5a#iefix") format("embedded-opentype"), url("../fonts/editstore.ttf?rqwo5a") format("truetype"), url("../fonts/editstore.woff?rqwo5a") format("woff"), url("../fonts/editstore.svg?rqwo5a#editstore") format("svg");
+  font-family: "Ic_shopinporto";
+  src: url("fonts/Ic_shopinporto.eot?o01qv6");
+  src: url("fonts/Ic_shopinporto.eot?o01qv6#iefix") format("embedded-opentype"), url("fonts/Ic_shopinporto.ttf?o01qv6") format("truetype"), url("fonts/Ic_shopinporto.woff?o01qv6") format("woff"), url("fonts/Ic_shopinporto.svg?o01qv6#Ic_shopinporto") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-/* line 14, ../../../../final-project-360º/scss/_icons.scss */
+/* line 13, ../../../../final-project-360º/scss/_icons.scss */
 [class^="ic-"], [class*=" ic-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "editstore" !important;
-  speak-as: none;
+  font-family: "Ic_shopinporto" !important;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -269,161 +269,186 @@ template {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 31, ../../../../final-project-360º/scss/_icons.scss */
+/* line 29, ../../../../final-project-360º/scss/_icons.scss */
 .ic-arrow_right:before {
   content: "";
   color: #fff;
 }
 
-/* line 38, ../../../../final-project-360º/scss/_icons.scss */
+/* line 35, ../../../../final-project-360º/scss/_icons.scss */
 .ic-help_icon:before {
   content: "";
   color: #fffdfd;
 }
 
-/* line 45, ../../../../final-project-360º/scss/_icons.scss */
+/* line 41, ../../../../final-project-360º/scss/_icons.scss */
 .ic-ico_comerciante:before {
   content: "";
   color: #fff;
 }
 
-/* line 52, ../../../../final-project-360º/scss/_icons.scss */
+/* line 47, ../../../../final-project-360º/scss/_icons.scss */
 .ic-ico_consumidor:before {
   content: "";
   color: #fff;
 }
 
-/* line 59, ../../../../final-project-360º/scss/_icons.scss */
+/* line 53, ../../../../final-project-360º/scss/_icons.scss */
 .ic-logo:before {
   content: "";
   color: #fff;
 }
 
-/* line 66, ../../../../final-project-360º/scss/_icons.scss */
+/* line 59, ../../../../final-project-360º/scss/_icons.scss */
 .ic-mdi_arrow_drop_down:before {
   content: "";
   color: #fff;
 }
 
-/* line 73, ../../../../final-project-360º/scss/_icons.scss */
+/* line 65, ../../../../final-project-360º/scss/_icons.scss */
 .ic-mdi_keyboard_arrow_right:before {
   content: "";
   color: #f05513;
 }
 
-/* line 80, ../../../../final-project-360º/scss/_icons.scss */
+/* line 71, ../../../../final-project-360º/scss/_icons.scss */
 .ic-mdi_language:before {
   content: "";
   color: #fff;
 }
 
-/* line 87, ../../../../final-project-360º/scss/_icons.scss */
+/* line 77, ../../../../final-project-360º/scss/_icons.scss */
 .ic-search-24px:before {
   content: "";
   color: #fff;
 }
 
-/* line 94, ../../../../final-project-360º/scss/_icons.scss */
+/* line 83, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Animais:before {
   content: "";
 }
 
-/* line 100, ../../../../final-project-360º/scss/_icons.scss */
+/* line 88, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Antiguidades-e-Obras-de-Arte:before {
   content: "";
 }
 
-/* line 106, ../../../../final-project-360º/scss/_icons.scss */
+/* line 93, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Cultura-e-Lazer:before {
   content: "";
 }
 
-/* line 112, ../../../../final-project-360º/scss/_icons.scss */
+/* line 98, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Flores-e-Plantas:before {
   content: "";
 }
 
-/* line 118, ../../../../final-project-360º/scss/_icons.scss */
+/* line 103, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Fotografia:before {
   content: "";
 }
 
-/* line 124, ../../../../final-project-360º/scss/_icons.scss */
+/* line 108, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Papelaria-e-Grafica:before {
+  content: "";
+}
+
+/* line 113, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Lar:before {
   content: "";
 }
 
-/* line 130, ../../../../final-project-360º/scss/_icons.scss */
+/* line 118, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Decoracao-e-Bricolage:before {
+  content: "";
+}
+
+/* line 123, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Moda-Contemporanea-e-Vintage:before {
   content: "";
 }
 
-/* line 136, ../../../../final-project-360º/scss/_icons.scss */
+/* line 128, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Moda-Infantil:before {
   content: "";
 }
 
-/* line 142, ../../../../final-project-360º/scss/_icons.scss */
+/* line 133, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Musica:before {
   content: "";
 }
 
-/* line 148, ../../../../final-project-360º/scss/_icons.scss */
+/* line 138, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Ourivesaria:before {
   content: "";
 }
 
-/* line 154, ../../../../final-project-360º/scss/_icons.scss */
+/* line 143, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Produtos-Alimentares:before {
   content: "";
 }
 
-/* line 160, ../../../../final-project-360º/scss/_icons.scss */
+/* line 148, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Produtos-Regionais-e-Artesanato:before {
   content: "";
 }
 
-/* line 166, ../../../../final-project-360º/scss/_icons.scss */
+/* line 153, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Restauracao-e-Bebidas:before {
   content: "";
 }
 
-/* line 172, ../../../../final-project-360º/scss/_icons.scss */
+/* line 158, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Sapatarias:before {
   content: "";
 }
 
-/* line 178, ../../../../final-project-360º/scss/_icons.scss */
+/* line 163, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Acessorios-e-Marroquinaria:before {
+  content: "";
+}
+
+/* line 168, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Saude:before {
   content: "";
 }
 
-/* line 184, ../../../../final-project-360º/scss/_icons.scss */
+/* line 173, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Bem-Estar-e-Cuidados-Pessoais:before {
+  content: "";
+}
+
+/* line 178, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Servicos-de-Utilidade-Domestica:before {
   content: "";
 }
 
-/* line 190, ../../../../final-project-360º/scss/_icons.scss */
+/* line 183, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Tecnologia-e-Equipamentos-Eletronicos:before {
   content: "";
 }
 
-/* line 196, ../../../../final-project-360º/scss/_icons.scss */
+/* line 188, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Trajes:before {
   content: "";
 }
 
-/* line 202, ../../../../final-project-360º/scss/_icons.scss */
+/* line 193, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Fardas-e-Festas:before {
+  content: "";
+}
+
+/* line 198, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Tudo:before {
   content: "";
 }
 
-/* line 208, ../../../../final-project-360º/scss/_icons.scss */
+/* line 203, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Turismo:before {
   content: "";
 }
 
-/* line 214, ../../../../final-project-360º/scss/_icons.scss */
+/* line 208, ../../../../final-project-360º/scss/_icons.scss */
 .ic-Veiculos:before {
   content: "";
 }

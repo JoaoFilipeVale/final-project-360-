@@ -1,4 +1,5 @@
 @font-face {
+<<<<<<< HEAD
     font-family: '#{$icomoon-font-family}';
     src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rqwo5a');
     src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rqwo5a#iefix') format('embedded-opentype'),
@@ -214,3 +215,215 @@
       content: $ic-Veiculos;
     }
   }
+=======
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?o01qv6');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?o01qv6#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?o01qv6') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?o01qv6') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?o01qv6##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ic-"], [class*=" ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-arrow_right {
+  &:before {
+    content: $ic-arrow_right;     
+    color: #fff;
+  }
+}
+.ic-help_icon {
+  &:before {
+    content: $ic-help_icon;     
+    color: #fffdfd;
+  }
+}
+.ic-ico_comerciante {
+  &:before {
+    content: $ic-ico_comerciante;     
+    color: #fff;
+  }
+}
+.ic-ico_consumidor {
+  &:before {
+    content: $ic-ico_consumidor;     
+    color: #fff;
+  }
+}
+.ic-logo {
+  &:before {
+    content: $ic-logo;     
+    color: #fff;
+  }
+}
+.ic-mdi_arrow_drop_down {
+  &:before {
+    content: $ic-mdi_arrow_drop_down;     
+    color: #fff;
+  }
+}
+.ic-mdi_keyboard_arrow_right {
+  &:before {
+    content: $ic-mdi_keyboard_arrow_right;     
+    color: #f05513;
+  }
+}
+.ic-mdi_language {
+  &:before {
+    content: $ic-mdi_language;     
+    color: #fff;
+  }
+}
+.ic-search-24px {
+  &:before {
+    content: $ic-search-24px;     
+    color: #fff;
+  }
+}
+.ic-Animais {
+  &:before {
+    content: $ic-Animais; 
+  }
+}
+.ic-Antiguidades-e-Obras-de-Arte {
+  &:before {
+    content: $ic-Antiguidades-e-Obras-de-Arte; 
+  }
+}
+.ic-Cultura-e-Lazer {
+  &:before {
+    content: $ic-Cultura-e-Lazer; 
+  }
+}
+.ic-Flores-e-Plantas {
+  &:before {
+    content: $ic-Flores-e-Plantas; 
+  }
+}
+.ic-Fotografia {
+  &:before {
+    content: $ic-Fotografia; 
+  }
+}
+.ic-Papelaria-e-Grafica {
+  &:before {
+    content: $ic-Papelaria-e-Grafica; 
+  }
+}
+.ic-Lar {
+  &:before {
+    content: $ic-Lar; 
+  }
+}
+.ic-Decoracao-e-Bricolage {
+  &:before {
+    content: $ic-Decoracao-e-Bricolage; 
+  }
+}
+.ic-Moda-Contemporanea-e-Vintage {
+  &:before {
+    content: $ic-Moda-Contemporanea-e-Vintage; 
+  }
+}
+.ic-Moda-Infantil {
+  &:before {
+    content: $ic-Moda-Infantil; 
+  }
+}
+.ic-Musica {
+  &:before {
+    content: $ic-Musica; 
+  }
+}
+.ic-Ourivesaria {
+  &:before {
+    content: $ic-Ourivesaria; 
+  }
+}
+.ic-Produtos-Alimentares {
+  &:before {
+    content: $ic-Produtos-Alimentares; 
+  }
+}
+.ic-Produtos-Regionais-e-Artesanato {
+  &:before {
+    content: $ic-Produtos-Regionais-e-Artesanato; 
+  }
+}
+.ic-Restauracao-e-Bebidas {
+  &:before {
+    content: $ic-Restauracao-e-Bebidas; 
+  }
+}
+.ic-Sapatarias {
+  &:before {
+    content: $ic-Sapatarias; 
+  }
+}
+.ic-Acessorios-e-Marroquinaria {
+  &:before {
+    content: $ic-Acessorios-e-Marroquinaria; 
+  }
+}
+.ic-Saude {
+  &:before {
+    content: $ic-Saude; 
+  }
+}
+.ic-Bem-Estar-e-Cuidados-Pessoais {
+  &:before {
+    content: $ic-Bem-Estar-e-Cuidados-Pessoais; 
+  }
+}
+.ic-Servicos-de-Utilidade-Domestica {
+  &:before {
+    content: $ic-Servicos-de-Utilidade-Domestica; 
+  }
+}
+.ic-Tecnologia-e-Equipamentos-Eletronicos {
+  &:before {
+    content: $ic-Tecnologia-e-Equipamentos-Eletronicos; 
+  }
+}
+.ic-Trajes {
+  &:before {
+    content: $ic-Trajes; 
+  }
+}
+.ic-Fardas-e-Festas {
+  &:before {
+    content: $ic-Fardas-e-Festas; 
+  }
+}
+.ic-Tudo {
+  &:before {
+    content: $ic-Tudo; 
+  }
+}
+.ic-Turismo {
+  &:before {
+    content: $ic-Turismo; 
+  }
+}
+.ic-Veiculos {
+  &:before {
+    content: $ic-Veiculos; 
+  }
+}
+>>>>>>> c843d7c4357023e8834c3bd7111e4e6bafec4d5e
