@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400&display=swap);
+@import url("https://fonts.googleapis.com/css?family=Roboto:500|SFPro+Text:400|SF+Pro Text:500,200,400,700");
 /* line 2, ../../../../final-project-360º/scss/_normalize.scss */
 html {
   line-height: 1.15;
@@ -254,8 +254,8 @@ template {
   font-display: block;
 }
 
-/* line 13, ../../../../final-project-360º/scss/_icons.scss */
-[class^="icn-"], [class*=" icn-"] {
+/* line 14, ../../../../final-project-360º/scss/_icons.scss */
+[class^="ic-"], [class*=" ic-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "editstore" !important;
   speak-as: none;
@@ -269,74 +269,163 @@ template {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 29, ../../../../final-project-360º/scss/_icons.scss */
-.icn-star:before {
-  content: "";
-}
-
-/* line 34, ../../../../final-project-360º/scss/_icons.scss */
-.icn-facebook:before {
+/* line 31, ../../../../final-project-360º/scss/_icons.scss */
+.ic-arrow_right:before {
   content: "";
+  color: #fff;
 }
 
-/* line 39, ../../../../final-project-360º/scss/_icons.scss */
-.icn-pinterest:before {
+/* line 38, ../../../../final-project-360º/scss/_icons.scss */
+.ic-help_icon:before {
   content: "";
+  color: #fffdfd;
 }
 
-/* line 44, ../../../../final-project-360º/scss/_icons.scss */
-.icn-twitter:before {
+/* line 45, ../../../../final-project-360º/scss/_icons.scss */
+.ic-ico_comerciante:before {
   content: "";
+  color: #fff;
 }
 
-/* line 49, ../../../../final-project-360º/scss/_icons.scss */
-.icn-chevron-down:before {
+/* line 52, ../../../../final-project-360º/scss/_icons.scss */
+.ic-ico_consumidor:before {
   content: "";
-}
-
-/* line 54, ../../../../final-project-360º/scss/_icons.scss */
-.icn-chevron-left:before {
-  content: "";
+  color: #fff;
 }
 
 /* line 59, ../../../../final-project-360º/scss/_icons.scss */
-.icn-chevron-right:before {
-  content: "";
+.ic-logo:before {
+  content: "";
+  color: #fff;
 }
 
-/* line 64, ../../../../final-project-360º/scss/_icons.scss */
-.icn-chevron-up:before {
-  content: "";
+/* line 66, ../../../../final-project-360º/scss/_icons.scss */
+.ic-mdi_arrow_drop_down:before {
+  content: "";
+  color: #fff;
 }
 
-/* line 69, ../../../../final-project-360º/scss/_icons.scss */
-.icn-heart:before {
-  content: "";
+/* line 73, ../../../../final-project-360º/scss/_icons.scss */
+.ic-mdi_keyboard_arrow_right:before {
+  content: "";
+  color: #f05513;
 }
 
-/* line 74, ../../../../final-project-360º/scss/_icons.scss */
-.icn-minus:before {
-  content: "";
+/* line 80, ../../../../final-project-360º/scss/_icons.scss */
+.ic-mdi_language:before {
+  content: "";
+  color: #fff;
 }
 
-/* line 79, ../../../../final-project-360º/scss/_icons.scss */
-.icn-plus:before {
-  content: "";
-}
-
-/* line 84, ../../../../final-project-360º/scss/_icons.scss */
-.icn-reload:before {
-  content: "";
-}
-
-/* line 89, ../../../../final-project-360º/scss/_icons.scss */
-.icn-search:before {
-  content: "";
+/* line 87, ../../../../final-project-360º/scss/_icons.scss */
+.ic-search-24px:before {
+  content: "";
+  color: #fff;
 }
 
 /* line 94, ../../../../final-project-360º/scss/_icons.scss */
-.icn-shopping-cart:before {
-  content: "";
+.ic-Animais:before {
+  content: "";
+}
+
+/* line 100, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Antiguidades-e-Obras-de-Arte:before {
+  content: "";
+}
+
+/* line 106, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Cultura-e-Lazer:before {
+  content: "";
+}
+
+/* line 112, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Flores-e-Plantas:before {
+  content: "";
+}
+
+/* line 118, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Fotografia:before {
+  content: "";
+}
+
+/* line 124, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Lar:before {
+  content: "";
+}
+
+/* line 130, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Moda-Contemporanea-e-Vintage:before {
+  content: "";
+}
+
+/* line 136, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Moda-Infantil:before {
+  content: "";
+}
+
+/* line 142, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Musica:before {
+  content: "";
+}
+
+/* line 148, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Ourivesaria:before {
+  content: "";
+}
+
+/* line 154, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Produtos-Alimentares:before {
+  content: "";
+}
+
+/* line 160, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Produtos-Regionais-e-Artesanato:before {
+  content: "";
+}
+
+/* line 166, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Restauracao-e-Bebidas:before {
+  content: "";
+}
+
+/* line 172, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Sapatarias:before {
+  content: "";
+}
+
+/* line 178, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Saude:before {
+  content: "";
+}
+
+/* line 184, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Servicos-de-Utilidade-Domestica:before {
+  content: "";
+}
+
+/* line 190, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Tecnologia-e-Equipamentos-Eletronicos:before {
+  content: "";
+}
+
+/* line 196, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Trajes:before {
+  content: "";
+}
+
+/* line 202, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Tudo:before {
+  content: "";
+}
+
+/* line 208, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Turismo:before {
+  content: "";
+}
+
+/* line 214, ../../../../final-project-360º/scss/_icons.scss */
+.ic-Veiculos:before {
+  content: "";
 }
 
 /* line 3, ../../../../final-project-360º/scss/_fonts.scss */
@@ -460,6 +549,41 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 /* line 96, ../../../../final-project-360º/scss/_fonts.scss */
 .central-link-light a:hover {
   color: #727272;
+}
+
+/* line 104, ../../../../final-project-360º/scss/_fonts.scss */
+h6 {
+  font-family: SFPro Text, Helvetica, Arial, serif;
+  font-weight: 400;
+}
+
+/* line 108, ../../../../final-project-360º/scss/_fonts.scss */
+h1 {
+  color: #FFF;
+  font-family: SF Pro Text, Helvetica, Arial, serif;
+  font-weight: 700;
+  letter-spacing: 2.00px;
+}
+
+/* line 115, ../../../../final-project-360º/scss/_fonts.scss */
+h4 {
+  font-family: SF Pro Text, Helvetica, Arial, serif;
+  font-weight: 200;
+}
+
+/* line 120, ../../../../final-project-360º/scss/_fonts.scss */
+h3 {
+  font-family: SF Pro Text, Helvetica, Arial, serif;
+  font-weight: 400;
+}
+
+/* line 125, ../../../../final-project-360º/scss/_fonts.scss */
+h2 {
+  color: #FFF;
+  font-family: SF Pro Text, Helvetica, Arial, serif;
+  font-size: 42.0px;
+  font-weight: 500;
+  line-height: 50.0px;
 }
 
 /* line 1, ../../../../final-project-360º/scss/_utils.scss */
@@ -1754,12 +1878,12 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   padding: 0;
 }
 
-/* line 1, ../../../../final-project-360º/scss/_form.scss */
+/* line 1, ../../../../final-project-360º/scss/_bg.scss */
 form {
   margin-bottom: 8px;
 }
 
-/* line 3, ../../../../final-project-360º/scss/_form.scss */
+/* line 3, ../../../../final-project-360º/scss/_bg.scss */
 form input {
   box-sizing: border-box;
   width: 100%;
@@ -1770,23 +1894,23 @@ form input {
   line-height: 24px;
 }
 
-/* line 11, ../../../../final-project-360º/scss/_form.scss */
+/* line 11, ../../../../final-project-360º/scss/_bg.scss */
 form input::placeholder {
   color: #727272;
   opacity: 1;
 }
 
-/* line 15, ../../../../final-project-360º/scss/_form.scss */
+/* line 15, ../../../../final-project-360º/scss/_bg.scss */
 form input:-ms-input-placeholder {
   color: #727272;
 }
 
-/* line 18, ../../../../final-project-360º/scss/_form.scss */
+/* line 18, ../../../../final-project-360º/scss/_bg.scss */
 form input::-ms-input-placeholder {
   color: #727272;
 }
 
-/* line 22, ../../../../final-project-360º/scss/_form.scss */
+/* line 22, ../../../../final-project-360º/scss/_bg.scss */
 form button {
   cursor: pointer;
   box-sizing: border-box;
@@ -1801,6 +1925,97 @@ form button {
 }
 
 /* line 2, ../../../../final-project-360º/scss/_header.scss */
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  width: 100%;
+}
+
+/* line 12, ../../../../final-project-360º/scss/_header.scss */
+.flexbox-container a {
+  line-height: 0;
+}
+
+/* line 18, ../../../../final-project-360º/scss/_header.scss */
+.overlap-group {
+  background-color: #2E2E2E;
+  flex-shrink: 0;
+  height: 1672px;
+  margin-right: -150.0px;
+  position: relative;
+  width: 1596px;
+}
+
+/* line 27, ../../../../final-project-360º/scss/_header.scss */
+.bg-section {
+  background-color: #FFF;
+  height: 882px;
+  left: 0px;
+  position: absolute;
+  top: 790px;
+  width: 1440px;
+}
+
+/* line 36, ../../../../final-project-360º/scss/_header.scss */
+.download-da-app-section {
+  background-color: #2E2E2E;
+  height: 1000px;
+  left: 107px;
+  position: absolute;
+  top: 609px;
+  width: 1231px;
+}
+
+/* line 45, ../../../../final-project-360º/scss/_header.scss */
+.rectangle {
+  background-color: #FFF;
+  border-radius: 18.0px;
+  box-shadow: 0px 20px 80px rgba(19, 90, 112, 0.07);
+  height: 1002px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 1233px;
+}
+
+/* line 56, ../../../../final-project-360º/scss/_header.scss */
+.botoes-stores {
+  align-items: flex-start;
+  background-color: #2E2E2E;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  left: 208px;
+  position: absolute;
+  top: 591px;
+  width: 550px;
+}
+
+/* line 77, ../../../../final-project-360º/scss/_header.scss */
+body {
+  margin: 0;
+  background: #FFF;
+  align-items: flex-end;
+  border-color: #2E2E2E;
+  border-style: solid;
+  border-width: 1.0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 6150px;
+  overflow: hidden;
+  position: relative;
+  width: 1440.0px;
+}
+
+/* line 99, ../../../../final-project-360º/scss/_header.scss */
 body #promobar {
   font-size: 0.7rem;
   line-height: 16px;
@@ -1808,13 +2023,13 @@ body #promobar {
 }
 
 @media (min-width: 1440px) {
-  /* line 2, ../../../../final-project-360º/scss/_header.scss */
+  /* line 99, ../../../../final-project-360º/scss/_header.scss */
   body #promobar {
     letter-spacing: 1px;
   }
 }
 
-/* line 10, ../../../../final-project-360º/scss/_header.scss */
+/* line 107, ../../../../final-project-360º/scss/_header.scss */
 body > header {
   position: -webkit-sticky;
   position: sticky;
@@ -1823,24 +2038,24 @@ body > header {
   border-bottom: 1px solid #A1A1A1;
 }
 
-/* line 16, ../../../../final-project-360º/scss/_header.scss */
+/* line 113, ../../../../final-project-360º/scss/_header.scss */
 body > header nav {
   padding-top: 8px;
 }
 
 @media (min-width: 750px) {
-  /* line 16, ../../../../final-project-360º/scss/_header.scss */
+  /* line 113, ../../../../final-project-360º/scss/_header.scss */
   body > header nav {
     padding-bottom: 8px;
   }
 }
 
-/* line 21, ../../../../final-project-360º/scss/_header.scss */
+/* line 118, ../../../../final-project-360º/scss/_header.scss */
 body > header nav #logo {
   height: 24px;
 }
 
-/* line 23, ../../../../final-project-360º/scss/_header.scss */
+/* line 120, ../../../../final-project-360º/scss/_header.scss */
 body > header nav #logo > a {
   display: inline-block;
   width: 125px;
@@ -1849,19 +2064,19 @@ body > header nav #logo > a {
   padding: 5.33333px;
 }
 
-/* line 32, ../../../../final-project-360º/scss/_header.scss */
+/* line 129, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul {
   height: 24px;
   list-style-type: none;
   margin: 0;
 }
 
-/* line 36, ../../../../final-project-360º/scss/_header.scss */
+/* line 133, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul li {
   display: inline-block;
 }
 
-/* line 38, ../../../../final-project-360º/scss/_header.scss */
+/* line 135, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul li a {
   display: inline-block;
   text-transform: uppercase;
@@ -1873,13 +2088,13 @@ body > header nav ul li a {
 }
 
 @media (min-width: 1440px) {
-  /* line 38, ../../../../final-project-360º/scss/_header.scss */
+  /* line 135, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul li a {
     letter-spacing: 2px;
   }
 }
 
-/* line 51, ../../../../final-project-360º/scss/_header.scss */
+/* line 148, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul#mainmenu {
   order: 3;
   display: flex;
@@ -1887,7 +2102,7 @@ body > header nav ul#mainmenu {
 }
 
 @media (min-width: 750px) {
-  /* line 51, ../../../../final-project-360º/scss/_header.scss */
+  /* line 148, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#mainmenu {
     display: block;
     order: 0;
@@ -1895,20 +2110,20 @@ body > header nav ul#mainmenu {
 }
 
 @media (min-width: 750px) {
-  /* line 59, ../../../../final-project-360º/scss/_header.scss */
+  /* line 156, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#mainmenu li {
     margin-right: 5.33333px;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 59, ../../../../final-project-360º/scss/_header.scss */
+  /* line 156, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#mainmenu li {
     margin-right: 16px;
   }
 }
 
-/* line 69, ../../../../final-project-360º/scss/_header.scss */
+/* line 166, ../../../../final-project-360º/scss/_header.scss */
 body > header nav ul#customermenu i {
   display: inline-block;
   font-size: 1.2rem;
@@ -1916,33 +2131,33 @@ body > header nav ul#customermenu i {
 }
 
 @media (min-width: 750px) {
-  /* line 69, ../../../../final-project-360º/scss/_header.scss */
+  /* line 166, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#customermenu i {
     margin-left: 5.33333px;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 69, ../../../../final-project-360º/scss/_header.scss */
+  /* line 166, ../../../../final-project-360º/scss/_header.scss */
   body > header nav ul#customermenu i {
     margin-left: 8px;
   }
 }
 
-/* line 86, ../../../../final-project-360º/scss/_header.scss */
+/* line 183, ../../../../final-project-360º/scss/_header.scss */
 .slider {
   height: 65vh;
   background-color: #A1A1A1;
   position: relative;
 }
 
-/* line 90, ../../../../final-project-360º/scss/_header.scss */
+/* line 187, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides {
   height: 65vh;
   position: relative;
 }
 
-/* line 93, ../../../../final-project-360º/scss/_header.scss */
+/* line 190, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide {
   position: absolute;
   width: 100%;
@@ -1952,7 +2167,7 @@ body > header nav ul#customermenu i {
   overflow: hidden;
 }
 
-/* line 100, ../../../../final-project-360º/scss/_header.scss */
+/* line 197, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide img {
   position: absolute;
   min-width: 100%;
@@ -1962,7 +2177,7 @@ body > header nav ul#customermenu i {
   transform: translate(-50%, -50%);
 }
 
-/* line 108, ../../../../final-project-360º/scss/_header.scss */
+/* line 205, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide-caption {
   width: 100%;
   height: 65vh;
@@ -1979,7 +2194,7 @@ body > header nav ul#customermenu i {
 }
 
 @media (min-width: 750px) {
-  /* line 108, ../../../../final-project-360º/scss/_header.scss */
+  /* line 205, ../../../../final-project-360º/scss/_header.scss */
   .slider-slides-slide-caption {
     padding-left: 55vw;
     padding-right: 16px;
@@ -1987,21 +2202,21 @@ body > header nav ul#customermenu i {
 }
 
 @media (min-width: 1440px) {
-  /* line 108, ../../../../final-project-360º/scss/_header.scss */
+  /* line 205, ../../../../final-project-360º/scss/_header.scss */
   .slider-slides-slide-caption {
     padding-left: 60vw;
     padding-right: 16px;
   }
 }
 
-/* line 129, ../../../../final-project-360º/scss/_header.scss */
+/* line 226, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide-caption .h1 {
   font-size: 3rem;
   color: #FFF;
   margin-bottom: 16px;
 }
 
-/* line 134, ../../../../final-project-360º/scss/_header.scss */
+/* line 231, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide-caption a {
   display: inline-block;
   color: #FFF;
@@ -2012,18 +2227,18 @@ body > header nav ul#customermenu i {
   border-bottom: 1px solid #FFF;
 }
 
-/* line 142, ../../../../final-project-360º/scss/_header.scss */
+/* line 239, ../../../../final-project-360º/scss/_header.scss */
 .slider-slides-slide-caption a:hover {
   border-bottom-color: #727272;
 }
 
-/* line 150, ../../../../final-project-360º/scss/_header.scss */
+/* line 247, ../../../../final-project-360º/scss/_header.scss */
 .slider-next, .slider-previous {
   display: none;
 }
 
 @media (min-width: 750px) {
-  /* line 150, ../../../../final-project-360º/scss/_header.scss */
+  /* line 247, ../../../../final-project-360º/scss/_header.scss */
   .slider-next, .slider-previous {
     display: block;
     position: absolute;
@@ -2037,11 +2252,11 @@ body > header nav ul#customermenu i {
     background-color: #727272;
     color: #FFF;
   }
-  /* line 165, ../../../../final-project-360º/scss/_header.scss */
+  /* line 262, ../../../../final-project-360º/scss/_header.scss */
   .slider-next i, .slider-previous i {
     line-height: 48px;
   }
-  /* line 168, ../../../../final-project-360º/scss/_header.scss */
+  /* line 265, ../../../../final-project-360º/scss/_header.scss */
   .slider-next:hover, .slider-previous:hover {
     background-color: #FFF;
     color: #727272;
@@ -2049,25 +2264,25 @@ body > header nav ul#customermenu i {
   }
 }
 
-/* line 175, ../../../../final-project-360º/scss/_header.scss */
+/* line 272, ../../../../final-project-360º/scss/_header.scss */
 .slider-next {
   right: 0;
   border-radius: 24px 0 0 24px;
 }
 
-/* line 179, ../../../../final-project-360º/scss/_header.scss */
+/* line 276, ../../../../final-project-360º/scss/_header.scss */
 .slider-previous {
   left: 0;
   border-radius: 0 24px 24px 0;
 }
 
-/* line 4, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 4, ../../../../final-project-360º/scss/_hojenoporto.scss */
 .product-list .product-card-image {
   position: relative;
   background-color: #727272;
 }
 
-/* line 7, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 7, ../../../../final-project-360º/scss/_hojenoporto.scss */
 .product-list .product-card-image-badge {
   padding: 2px 4px;
   text-transform: uppercase;
@@ -2078,17 +2293,17 @@ body > header nav ul#customermenu i {
   z-index: 3;
 }
 
-/* line 18, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 18, ../../../../final-project-360º/scss/_hojenoporto.scss */
 .product-list .product-card-image img {
   opacity: 0.6;
 }
 
-/* line 25, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 25, ../../../../final-project-360º/scss/_hojenoporto.scss */
 .product-list .product-card:hover .product-card-image img {
   opacity: 1;
 }
 
-/* line 32, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 32, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #headerproductlist {
   height: 65vh;
   background-position: center center;
@@ -2098,20 +2313,20 @@ body > header nav ul#customermenu i {
 }
 
 @media (min-width: 750px) {
-  /* line 32, ../../../../final-project-360º/scss/_productlists.scss */
+  /* line 32, ../../../../final-project-360º/scss/_hojenoporto.scss */
   #headerproductlist {
     background-image: url(../imgs/slider/slider01-medium.jpg);
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 32, ../../../../final-project-360º/scss/_productlists.scss */
+  /* line 32, ../../../../final-project-360º/scss/_hojenoporto.scss */
   #headerproductlist {
     background-image: url(../imgs/slider/slider01.jpg);
   }
 }
 
-/* line 44, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 44, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #headerproductlist .textoverlay {
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
@@ -2121,19 +2336,19 @@ body > header nav ul#customermenu i {
   height: 65vh;
 }
 
-/* line 52, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 52, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #headerproductlist .textoverlay h1 {
   font-size: 3rem;
   margin-bottom: 16px;
 }
 
-/* line 61, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 61, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #sortbar {
   box-shadow: 0 0 10px #727272;
   line-height: 32px;
 }
 
-/* line 65, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 65, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #sortbar select {
   border: 1px solid #e6e6e6;
   height: 19.2px;
@@ -2141,19 +2356,19 @@ body > header nav ul#customermenu i {
   margin-left: 5.33333px;
 }
 
-/* line 72, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 72, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #mainproductlist {
   padding: 0;
 }
 
-/* line 76, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 76, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters > .fancytext, .central-link #filters > a, .central-link-light #filters > a, #filters .categories > li > ul#filters > li, #filters .sizes .sizebtns #filters > button, #product #product-description .product-description-line .sizebtns #filters > button, #product #product-description .product-description-line .cart #filters > button, footer form #filters > button {
   line-height: 24px;
   border-bottom: 1px solid #e6e6e6;
   cursor: pointer;
 }
 
-/* line 81, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 81, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories {
   border-bottom: 1px solid #e6e6e6;
   display: none;
@@ -2163,30 +2378,30 @@ body > header nav ul#customermenu i {
   padding: 0;
 }
 
-/* line 84, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 84, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories.open {
   display: block;
 }
 
 @media (min-width: 750px) {
-  /* line 81, ../../../../final-project-360º/scss/_productlists.scss */
+  /* line 81, ../../../../final-project-360º/scss/_hojenoporto.scss */
   #filters .categories {
     display: block;
   }
 }
 
-/* line 94, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 94, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories > li {
   font-size: 1.2rem;
 }
 
-/* line 97, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 97, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories > li > a {
   display: block;
   position: relative;
 }
 
-/* line 100, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 100, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories > li > a .icn-chevron-up, #filters .categories > li > a .icn-chevron-down {
   line-height: 1.6968rem;
   position: absolute;
@@ -2194,57 +2409,57 @@ body > header nav ul#customermenu i {
   right: 0;
 }
 
-/* line 106, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 106, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories > li > a .icn-chevron-up {
   display: none;
 }
 
-/* line 110, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 110, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories > li > ul {
   display: none;
   list-style-type: none;
   padding: 0;
 }
 
-/* line 122, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 122, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories > li.open > a .icn-chevron-up {
   display: block;
 }
 
-/* line 125, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 125, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories > li.open > a .icn-chevron-down {
   display: none;
 }
 
-/* line 129, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 129, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .categories > li.open > ul {
   display: block;
 }
 
-/* line 135, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 135, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .sizes {
   display: none;
 }
 
-/* line 137, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 137, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .sizes.open {
   display: block;
 }
 
 @media (min-width: 750px) {
-  /* line 135, ../../../../final-project-360º/scss/_productlists.scss */
+  /* line 135, ../../../../final-project-360º/scss/_hojenoporto.scss */
   #filters .sizes {
     display: block;
   }
 }
 
-/* line 143, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 143, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .sizes .sizebtns {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 146, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 146, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .sizes .sizebtns button {
   cursor: pointer;
   width: 19.2px;
@@ -2254,13 +2469,13 @@ body > header nav ul#customermenu i {
   background-color: #FFF;
 }
 
-/* line 155, ../../../../final-project-360º/scss/_productlists.scss */
+/* line 155, ../../../../final-project-360º/scss/_hojenoporto.scss */
 #filters .sizes .sizebtns button:hover {
   background-color: #e6e6e6;
   border-color: #b3b3b3;
 }
 
-/* line 2, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 2, ../../../../final-project-360º/scss/_downloadapp.scss */
 #about .about {
   display: flex;
   flex-direction: column;
@@ -2269,19 +2484,19 @@ body > header nav ul#customermenu i {
 }
 
 @media (min-width: 750px) {
-  /* line 2, ../../../../final-project-360º/scss/_homepage.scss */
+  /* line 2, ../../../../final-project-360º/scss/_downloadapp.scss */
   #about .about {
     margin-top: 0;
   }
 }
 
-/* line 13, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 13, ../../../../final-project-360º/scss/_downloadapp.scss */
 #about .about .fancytext, #about .about .central-link a, .central-link #about .about a, #about .about .central-link-light a, .central-link-light #about .about a, #about .about #filters .categories > li > ul > li, #filters #about .about .categories > li > ul > li, #about .about #filters .sizes .sizebtns button, #filters .sizes .sizebtns #about .about button, #about .about #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #about .about button, #about .about #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #about .about button, #about .about footer form button, footer form #about .about button {
   display: block;
   margin-bottom: 3.2px;
 }
 
-/* line 20, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 20, ../../../../final-project-360º/scss/_downloadapp.scss */
 #journal .journal-card {
   box-sizing: border-box;
   height: 100%;
@@ -2293,7 +2508,7 @@ body > header nav ul#customermenu i {
   justify-content: flex-start;
 }
 
-/* line 29, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 29, ../../../../final-project-360º/scss/_downloadapp.scss */
 #journal .journal-card h3 {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
@@ -2301,81 +2516,81 @@ body > header nav ul#customermenu i {
   margin: 8px 0;
 }
 
-/* line 35, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 35, ../../../../final-project-360º/scss/_downloadapp.scss */
 #journal .journal-card-image {
   margin-top: auto;
   background-color: #727272;
 }
 
-/* line 38, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 38, ../../../../final-project-360º/scss/_downloadapp.scss */
 #journal .journal-card-image img {
   opacity: 0.6;
 }
 
-/* line 43, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 43, ../../../../final-project-360º/scss/_downloadapp.scss */
 #journal .journal-card-small {
   height: 160px;
 }
 
-/* line 45, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 45, ../../../../final-project-360º/scss/_downloadapp.scss */
 #journal .journal-card-small .fancytext, #journal .journal-card-small .central-link a, .central-link #journal .journal-card-small a, #journal .journal-card-small .central-link-light a, .central-link-light #journal .journal-card-small a, #journal .journal-card-small #filters .categories > li > ul > li, #filters #journal .journal-card-small .categories > li > ul > li, #journal .journal-card-small #filters .sizes .sizebtns button, #filters .sizes .sizebtns #journal .journal-card-small button, #journal .journal-card-small #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #journal .journal-card-small button, #journal .journal-card-small #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #journal .journal-card-small button, #journal .journal-card-small footer form button, footer form #journal .journal-card-small button {
   margin: 0;
 }
 
-/* line 48, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 48, ../../../../final-project-360º/scss/_downloadapp.scss */
 #journal .journal-card-small h3 {
   font-size: 1.3rem;
   margin: 8px 0;
 }
 
 @media (min-width: 750px) {
-  /* line 43, ../../../../final-project-360º/scss/_homepage.scss */
+  /* line 43, ../../../../final-project-360º/scss/_downloadapp.scss */
   #journal .journal-card-small {
     height: 176px;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 43, ../../../../final-project-360º/scss/_homepage.scss */
+  /* line 43, ../../../../final-project-360º/scss/_downloadapp.scss */
   #journal .journal-card-small {
     height: 144px;
   }
 }
 
-/* line 58, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 58, ../../../../final-project-360º/scss/_downloadapp.scss */
 #journal .journal-card-small .journal-card-image {
   margin-top: unset;
 }
 
 @media (min-width: 1440px) {
-  /* line 58, ../../../../final-project-360º/scss/_homepage.scss */
+  /* line 58, ../../../../final-project-360º/scss/_downloadapp.scss */
   #journal .journal-card-small .journal-card-image {
     margin-top: auto;
   }
 }
 
-/* line 67, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 67, ../../../../final-project-360º/scss/_downloadapp.scss */
 #journal .journal-card:hover .journal-card-image img {
   opacity: 1;
 }
 
-/* line 76, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 76, ../../../../final-project-360º/scss/_downloadapp.scss */
 #looks .look-card {
   display: block;
   position: relative;
 }
 
-/* line 80, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 80, ../../../../final-project-360º/scss/_downloadapp.scss */
 #looks .look-card-image {
   background-color: #727272;
 }
 
-/* line 82, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 82, ../../../../final-project-360º/scss/_downloadapp.scss */
 #looks .look-card-image img {
   opacity: 0.6;
 }
 
-/* line 87, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 87, ../../../../final-project-360º/scss/_downloadapp.scss */
 #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #looks .look-card #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card button, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card footer form button, footer form #looks .look-card button {
   position: absolute;
   left: 0;
@@ -2385,32 +2600,32 @@ body > header nav ul#customermenu i {
   padding: 5.33333px 0;
 }
 
-/* line 99, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 99, ../../../../final-project-360º/scss/_downloadapp.scss */
 #looks .look-card:hover .fancytext, #looks .look-card:hover .central-link a, .central-link #looks .look-card:hover a, #looks .look-card:hover .central-link-light a, .central-link-light #looks .look-card:hover a, #looks .look-card:hover #filters .categories > li > ul > li, #filters #looks .look-card:hover .categories > li > ul > li, #looks .look-card:hover #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card:hover button, #looks .look-card:hover #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card:hover button, #looks .look-card:hover #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card:hover button, #looks .look-card:hover footer form button, footer form #looks .look-card:hover button {
   background-color: #FFF;
 }
 
-/* line 103, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 103, ../../../../final-project-360º/scss/_downloadapp.scss */
 #looks .look-card:hover .look-card-image img {
   opacity: 1;
 }
 
-/* line 111, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 111, ../../../../final-project-360º/scss/_downloadapp.scss */
 #press .press-card {
   display: block;
 }
 
-/* line 114, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 114, ../../../../final-project-360º/scss/_downloadapp.scss */
 #press .press-card-image {
   background-color: #727272;
 }
 
-/* line 116, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 116, ../../../../final-project-360º/scss/_downloadapp.scss */
 #press .press-card-image img {
   opacity: 0.6;
 }
 
-/* line 121, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 121, ../../../../final-project-360º/scss/_downloadapp.scss */
 #press .press-card p {
   background-color: #FFF;
   padding: 10.66667px;
@@ -2418,59 +2633,59 @@ body > header nav ul#customermenu i {
   font-size: 0.9rem;
 }
 
-/* line 131, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 131, ../../../../final-project-360º/scss/_downloadapp.scss */
 #press .press-card:hover .press-card-image img {
   opacity: 1;
 }
 
-/* line 140, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 140, ../../../../final-project-360º/scss/_downloadapp.scss */
 #talking img {
   opacity: 0.6;
 }
 
-/* line 143, ../../../../final-project-360º/scss/_homepage.scss */
+/* line 143, ../../../../final-project-360º/scss/_downloadapp.scss */
 #talking img:hover {
   opacity: 1;
 }
 
-/* line 1, ../../../../final-project-360º/scss/_product.scss */
+/* line 1, ../../../../final-project-360º/scss/_categorias.scss */
 .breadcrumb {
   box-shadow: 0 0 10px #727272;
   line-height: 40px;
 }
 
-/* line 8, ../../../../final-project-360º/scss/_product.scss */
+/* line 8, ../../../../final-project-360º/scss/_categorias.scss */
 #product #thumbs a {
   display: inline-block;
   background: linear-gradient(#727272, #2E2E2E);
 }
 
-/* line 12, ../../../../final-project-360º/scss/_product.scss */
+/* line 12, ../../../../final-project-360º/scss/_categorias.scss */
 #product #thumbs a img {
   opacity: 0.6;
 }
 
-/* line 16, ../../../../final-project-360º/scss/_product.scss */
+/* line 16, ../../../../final-project-360º/scss/_categorias.scss */
 #product #thumbs a.open {
   border: 2px solid #1EA0C8;
 }
 
-/* line 18, ../../../../final-project-360º/scss/_product.scss */
+/* line 18, ../../../../final-project-360º/scss/_categorias.scss */
 #product #thumbs a.open img {
   opacity: 1;
 }
 
-/* line 23, ../../../../final-project-360º/scss/_product.scss */
+/* line 23, ../../../../final-project-360º/scss/_categorias.scss */
 #product #thumbs a:hover img {
   opacity: 1;
 }
 
-/* line 30, ../../../../final-project-360º/scss/_product.scss */
+/* line 30, ../../../../final-project-360º/scss/_categorias.scss */
 #product #bigimg .share {
   color: #727272;
 }
 
-/* line 33, ../../../../final-project-360º/scss/_product.scss */
+/* line 33, ../../../../final-project-360º/scss/_categorias.scss */
 #product #bigimg .share a {
   color: #727272;
   font-size: 1.3rem;
@@ -2479,51 +2694,51 @@ body > header nav ul#customermenu i {
   margin-left: 3.2px;
 }
 
-/* line 39, ../../../../final-project-360º/scss/_product.scss */
+/* line 39, ../../../../final-project-360º/scss/_categorias.scss */
 #product #bigimg .share a:hover {
   color: #000;
 }
 
-/* line 46, ../../../../final-project-360º/scss/_product.scss */
+/* line 46, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description h1 {
   font-size: 1.7rem;
 }
 
-/* line 49, ../../../../final-project-360º/scss/_product.scss */
+/* line 49, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line {
   line-height: 24px;
   border-bottom: 1px solid #e6e6e6;
 }
 
-/* line 52, ../../../../final-project-360º/scss/_product.scss */
+/* line 52, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .price {
   font-size: 1.5rem;
 }
 
-/* line 58, ../../../../final-project-360º/scss/_product.scss */
+/* line 58, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .score i {
   display: inline-block;
   margin: 0 1px;
 }
 
-/* line 62, ../../../../final-project-360º/scss/_product.scss */
+/* line 62, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .score span {
   display: inline-block;
   margin-left: 5.33333px;
 }
 
-/* line 67, ../../../../final-project-360º/scss/_product.scss */
+/* line 67, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .smallerheight {
   line-height: 1.618;
 }
 
-/* line 70, ../../../../final-project-360º/scss/_product.scss */
+/* line 70, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .sizebtns {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 73, ../../../../final-project-360º/scss/_product.scss */
+/* line 73, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .sizebtns button {
   cursor: pointer;
   width: 19.2px;
@@ -2533,18 +2748,18 @@ body > header nav ul#customermenu i {
   background-color: #FFF;
 }
 
-/* line 82, ../../../../final-project-360º/scss/_product.scss */
+/* line 82, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .sizebtns button:hover {
   background-color: #e6e6e6;
   border-color: #b3b3b3;
 }
 
-/* line 88, ../../../../final-project-360º/scss/_product.scss */
+/* line 88, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .qty {
   display: flex;
 }
 
-/* line 90, ../../../../final-project-360º/scss/_product.scss */
+/* line 90, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .qty button, #product #product-description .product-description-line .qty input {
   width: 33.3333%;
   display: inline-block;
@@ -2561,23 +2776,23 @@ body > header nav ul#customermenu i {
   box-sizing: border-box;
 }
 
-/* line 104, ../../../../final-project-360º/scss/_product.scss */
+/* line 104, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .qty button.btnleft, #product #product-description .product-description-line .qty input.btnleft {
   border-left-width: 1px;
 }
 
-/* line 107, ../../../../final-project-360º/scss/_product.scss */
+/* line 107, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .qty button.btnright, #product #product-description .product-description-line .qty input.btnright {
   border-right-width: 1px;
 }
 
-/* line 111, ../../../../final-project-360º/scss/_product.scss */
+/* line 111, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .qty button {
   cursor: pointer;
   background-color: #e6e6e6;
 }
 
-/* line 117, ../../../../final-project-360º/scss/_product.scss */
+/* line 117, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .cart button {
   cursor: pointer;
   display: inline-block;
@@ -2587,57 +2802,57 @@ body > header nav ul#customermenu i {
   border: none;
 }
 
-/* line 127, ../../../../final-project-360º/scss/_product.scss */
+/* line 127, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-description-line .cart button:hover {
   background-color: #000;
 }
 
-/* line 134, ../../../../final-project-360º/scss/_product.scss */
+/* line 134, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-care ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 138, ../../../../final-project-360º/scss/_product.scss */
+/* line 138, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-care ul > li > a {
   display: block;
   position: relative;
   line-height: 16px;
 }
 
-/* line 142, ../../../../final-project-360º/scss/_product.scss */
+/* line 142, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-care ul > li > a .plus, #product #product-description .product-care ul > li > a .minus {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 147, ../../../../final-project-360º/scss/_product.scss */
+/* line 147, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-care ul > li > a .minus {
   display: none;
 }
 
-/* line 151, ../../../../final-project-360º/scss/_product.scss */
+/* line 151, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-care ul > li > div {
   display: none;
 }
 
-/* line 156, ../../../../final-project-360º/scss/_product.scss */
+/* line 156, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-care ul > li.open > a .minus {
   display: block;
 }
 
-/* line 159, ../../../../final-project-360º/scss/_product.scss */
+/* line 159, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-care ul > li.open > a .plus {
   display: none;
 }
 
-/* line 163, ../../../../final-project-360º/scss/_product.scss */
+/* line 163, ../../../../final-project-360º/scss/_categorias.scss */
 #product #product-description .product-care ul > li.open > div {
   display: block;
 }
 
-/* line 172, ../../../../final-project-360º/scss/_product.scss */
+/* line 172, ../../../../final-project-360º/scss/_categorias.scss */
 .separador {
   height: 40vh;
   background-size: cover;
@@ -2647,26 +2862,26 @@ body > header nav ul#customermenu i {
 }
 
 @media (min-width: 750px) {
-  /* line 172, ../../../../final-project-360º/scss/_product.scss */
+  /* line 172, ../../../../final-project-360º/scss/_categorias.scss */
   .separador {
     background-image: url(../imgs/slider/slider01-medium.jpg);
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 172, ../../../../final-project-360º/scss/_product.scss */
+  /* line 172, ../../../../final-project-360º/scss/_categorias.scss */
   .separador {
     background-image: url(../imgs/slider/slider01.jpg);
   }
 }
 
-/* line 189, ../../../../final-project-360º/scss/_product.scss */
+/* line 189, ../../../../final-project-360º/scss/_categorias.scss */
 #reviews .score i {
   display: inline-block;
   margin: 0 1px;
 }
 
-/* line 193, ../../../../final-project-360º/scss/_product.scss */
+/* line 193, ../../../../final-project-360º/scss/_categorias.scss */
 #reviews .score span {
   display: inline-block;
   margin-left: 5.33333px;
