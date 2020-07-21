@@ -110,64 +110,64 @@ body{
   }
 
 .step-2 {
-    align-items         : center;
-    background-color    : $graydark;
-    box-sizing          : border-box;
-    display             : flex;
-    flex-direction      : column;
-    flex-shrink         : 0;
-    height              : 246px;
-    justify-content     : flex-start;
-    margin-left         : 35px;
-    overflow            : hidden;
-    padding             : 1.0px 0.1px;
-    position            : relative;
-    width               : 220px;
+    align-items: center;
+    background-color: $graydark;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 246px;
+    justify-content: flex-start;
+    margin-left: 35px;
+    overflow: hidden;
+    padding: 1.0px 0.1px;
+    position: relative;
+    width: 220px;
   }
 
  .step-3{
-    align-items         : center;
-    background-color    : rgba(255,255,255,0);
-    box-sizing          : border-box;
-    display             : flex;
-    flex-direction      : column;
-    flex-shrink         : 0;
-    height              : 246px;
-    justify-content     : flex-start;
-    margin-left         : 33px;
-    overflow            : hidden;
-    padding             : 0 0.1px;
-    position            : relative;
-    width               : 214px;
+    align-items: center;
+    background-color: rgba(255,255,255,0);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 246px;
+    justify-content: flex-start;
+    margin-left: 33px;
+    overflow: hidden;
+    padding: 0 0.1px;
+    position: relative;
+    width: 214px;
   }
 
   .auto-flex {
-    align-items         : flex-start;
-    background-color    : rgba(255,255,255,0);
-    box-sizing          : border-box;
-    display             : inline-flex;
-    flex-direction      : row;
-    flex-shrink         : 0;
-    height              : 246px;
-    justify-content     : flex-start;
-    margin-left         : 0.58px;
-    margin-top          : 45px;
-    position            : relative;
-    width               : auto;
+    align-items : flex-start;
+    background-color: rgba(255,255,255,0);
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    height: 246px;
+    justify-content: flex-start;
+    margin-left: 0.58px;
+    margin-top: 45px;
+    position: relative;
+    width: auto;
   }
 .auto-flex1 {
-    align-items         : flex-start;
-    background-color    : rgba(255,255,255,0);
-    box-sizing          : border-box;
-    display             : inline-flex;
-    flex-direction      : row;
-    flex-shrink         : 0;
-    height              : 60px;
-    justify-content     : flex-start;
-    margin-top          : 16px;
-    position            : relative;
-    width               : auto;
-  }
+    align-items: flex-start;
+    background-color: rgba(255,255,255,0);
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    height: 60px;
+    justify-content: flex-start;
+    margin-top: 16px;
+    position: relative;
+    width: auto;
+}
 
 
 
