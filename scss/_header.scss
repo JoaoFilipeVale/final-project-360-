@@ -70,17 +70,6 @@ body{
     width: 1231px;
 }
 
-.rectangle {
-    background-color: $white;
-    border-radius: 18.0px;
-    box-shadow: 0px 20px 80px rgba(19,90,112,0.070000000298);;
-    height: 1002px;
-    left: -1px;
-    position: absolute;
-    top: -1px;
-    width: 1233px;
-}
-
 .botoes-stores {
     align-items: flex-start;
     background-color: $graydark;
@@ -170,6 +159,16 @@ body{
     width: auto;
 }
 
+.rectangle {
+    background-color: $white;
+    border-radius: 18.0px;
+    box-shadow: 0px 20px 80px rgba(19,90,112,0.070000000298);;
+    height: 1002px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 1233px;
+}
 
 
 
