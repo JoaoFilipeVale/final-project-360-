@@ -1,4 +1,101 @@
+
+.container-center-horizontal{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+.flexbox-container {
+    a{
+        line-height: 0;
+    }
+}
+
+
+.overlap-group{
+    background-color: $graydark;
+    flex-shrink: 0;
+    height: 1672px;
+    margin-right: -150.0px;
+    position: relative;
+    width: 1596px;
+}
+
+.bg-section{
+    background-color: $white;
+    height: 882px;
+    left: 0px;
+    position: absolute;
+    top: 790px;
+    width: 1440px;
+}
+
+.download-da-app-section {
+    background-color: $graydark;
+    height: 1000px;
+    left: 107px;
+    position: absolute;
+    top: 609px;
+    width: 1231px;
+}
+
+.rectangle {
+    background-color: $white;
+    border-radius: 18.0px;
+    box-shadow: 0px 20px 80px rgba(19,90,112,0.070000000298);;
+    height: 1002px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 1233px;
+}
+
+.botoes-stores {
+    align-items         : flex-start;
+    background-color    : $graydark;
+    box-sizing          : border-box;
+    display             : flex;
+    flex-direction      : column;
+    height              : auto;
+    justify-content     : flex-start;
+    left                : 208px;
+    position            : absolute;
+    top                 : 591px;
+    width               : 550px;
+  }
+
+
+
+
+
+
+
+
 body{
+    margin: 0; 
+    background: $white;
+    align-items: flex-end;
+    border-color: $graydark;
+    border-style: solid;
+    border-width: 1.0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    min-height: 6150px;
+    overflow: hidden;
+    position: relative;
+    width: 1440.0px;
+
+
+
+
+
+
     #promobar{
         font-size: 0.7rem;
         line-height: $gridgutter;

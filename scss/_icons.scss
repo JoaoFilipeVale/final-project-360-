@@ -10,7 +10,8 @@
     font-display: block;
   }
   
-  [class^="icn-"], [class*=" icn-"] {
+  
+  [class^="ic-"], [class*=" ic-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: '#{$icomoon-font-family}' !important;
     speak-as: none;
@@ -25,73 +26,192 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icn-star {
+
+  .ic-arrow_right {
     &:before {
-      content: $icn-star; 
+      content: $ic-arrow_right; 
+      color: #fff;
     }
   }
-  .icn-facebook {
+
+  .ic-help_icon {
     &:before {
-      content: $icn-facebook; 
+      content: $ic-help_icon;
+      color: #fffdfd;
     }
   }
-  .icn-pinterest {
+
+  .ic-ico_comerciante {
     &:before {
-      content: $icn-pinterest; 
+      content: $ic-ico_comerciante;
+      color: #fff;
     }
   }
-  .icn-twitter {
+
+  .ic-ico_consumidor {
     &:before {
-      content: $icn-twitter; 
+      content: $ic-ico_consumidor ;
+      color: #fff;
     }
   }
-  .icn-chevron-down {
+
+  .ic-logo {
     &:before {
-      content: $icn-chevron-down; 
+      content: $ic-logo;
+      color: #fff;
     }
   }
-  .icn-chevron-left {
+
+  .ic-mdi_arrow_drop_down {
     &:before {
-      content: $icn-chevron-left; 
+      content: $ic-mdi_arrow_drop_down;
+      color: #fff;
     }
   }
-  .icn-chevron-right {
+
+  .ic-mdi_keyboard_arrow_right {
     &:before {
-      content: $icn-chevron-right; 
+      content: $ic-mdi_keyboard_arrow_right;
+      color: #f05513;
     }
   }
-  .icn-chevron-up {
+
+  .ic-mdi_language {
     &:before {
-      content: $icn-chevron-up; 
+      content: $ic-mdi_language;
+      color: #fff;
     }
   }
-  .icn-heart {
+
+  .ic-search-24px{
     &:before {
-      content: $icn-heart; 
+      content: $ic-search-24px;
+      color: #fff;
     }
   }
-  .icn-minus {
+
+  .ic-Animais {
     &:before {
-      content: $icn-minus; 
+      content: $ic-Animais;
     }
   }
-  .icn-plus {
+
+  .ic-Antiguidades-e-Obras-de-Arte {
     &:before {
-      content: $icn-plus; 
+      content: $ic-Antiguidades-e-Obras-de-Arte;
     }
   }
-  .icn-reload {
+
+  .ic-Cultura-e-Lazer {
     &:before {
-      content: $icn-reload; 
+      content: $ic-Cultura-e-Lazer;
     }
   }
-  .icn-search {
+
+  .ic-Flores-e-Plantas {
     &:before {
-      content: $icn-search; 
+      content: $ic-Flores-e-Plantas;
     }
   }
-  .icn-shopping-cart {
+
+  .ic-Fotografia{
     &:before {
-      content: $icn-shopping-cart; 
+      content: $ic-Fotografia;
+    }
+  }
+
+  .ic-Lar{
+    &:before {
+      content: $ic-Lar;
+    }
+  }
+
+  .ic-Moda-Contemporanea-e-Vintage{
+    &:before {
+      content: $ic-Moda-Contemporanea-e-Vintage;
+    }
+  }
+
+  .ic-Moda-Infantil {
+    &:before {
+      content: $ic-Moda-Infantil;
+    }
+  }
+
+  .ic-Musica {
+    &:before {
+      content: $ic-Musica;
+    }
+  }
+
+  .ic-Ourivesaria {
+    &:before {
+      content: $ic-Ourivesaria;
+    }
+  }
+
+  .ic-Produtos-Alimentares{
+    &:before {
+      content: $ic-Produtos-Alimentares;
+    }
+  }
+
+  .ic-Produtos-Regionais-e-Artesanato {
+    &:before {
+      content: $ic-Produtos-Regionais-e-Artesanato;
+    }
+  }
+
+  .ic-Restauracao-e-Bebidas{
+    &:before {
+      content: $ic-Restauracao-e-Bebidas;
+    }
+  }
+
+  .ic-Sapatarias {
+    &:before {
+      content: $ic-Sapatarias;
+    }
+  }
+
+  .ic-Saude {
+    &:before {
+      content: $ic-Saude;
+    }
+  }
+
+  .ic-Servicos-de-Utilidade-Domestica {
+    &:before {
+      content: $ic-Servicos-de-Utilidade-Domestica;
+    }
+  }
+
+  .ic-Tecnologia-e-Equipamentos-Eletronicos {
+    &:before {
+      content: $ic-Tecnologia-e-Equipamentos-Eletronicos ;
+    }
+  }
+
+  .ic-Trajes{
+    &:before {
+      content: $ic-Trajes;
+    }
+  }
+
+  .ic-Tudo{
+    &:before {
+      content: $ic-Tudo;
+    }
+  }
+
+  .ic-Turismo {
+    &:before {
+      content: $ic-Turismo ;
+    }
+  }
+
+  .ic-Veiculos {
+    &:before {
+      content: $ic-Veiculos;
     }
   }

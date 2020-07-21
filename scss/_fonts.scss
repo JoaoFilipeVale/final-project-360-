@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=#{$titlesfont}:wght@#{$titlesfontweights}&family=#{$bodyfont}:wght@#{$bodyfontweights}&display=swap);
+@import url('https://fonts.googleapis.com/css?family=Roboto:500|SFPro+Text:400|SF+Pro Text:500,200,400,700');
 
 html{
     font-family: $bodyfont, sans-serif;
@@ -97,4 +97,35 @@ small, .small{
       color: $gray;
     }
   }
+}
+
+
+
+h6 {
+  font-family         : SFPro Text, Helvetica, Arial, serif;
+  font-weight         : 400;
+}
+h1 {
+  color               : $white;
+  font-family         : SF Pro Text, Helvetica, Arial, serif;
+  font-weight         : 700;
+  letter-spacing      : 2.00px;
+}
+
+h4 {
+  font-family         : SF Pro Text, Helvetica, Arial, serif;
+  font-weight         : 200;
+}
+
+h3{
+  font-family         : SF Pro Text, Helvetica, Arial, serif;
+  font-weight         : 400;
+}
+
+h2 {
+  color               : $white;
+  font-family         : SF Pro Text, Helvetica, Arial, serif;
+  font-size           : 42.0px;
+  font-weight         : 500;
+  line-height         : 50.0px;
 }

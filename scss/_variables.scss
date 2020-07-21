@@ -3,6 +3,8 @@ $titlesfontweights: "400;600";
 $bodyfont: "Roboto";
 $bodyfontweights: "400";
 
+
+
 $primary: #1EA0C8;
 $secondary: #0F314D;
 $graydark: #2E2E2E;
@@ -10,6 +12,8 @@ $gray: #727272;
 $graylight: #A1A1A1;
 $white: #FFF;
 $black: #000;
+$orange: #f05513;
+$red:#f03a13;
 
 $animationtime: 0.4s;
 
@@ -26,17 +30,35 @@ $gridwidthd: $desktop - $gridgutter;
 $icomoon-font-family: "editstore" !default;
 $icomoon-font-path: "../fonts" !default;
 
-$icn-star: "\f005";
-$icn-facebook: "\e900";
-$icn-pinterest: "\e901";
-$icn-twitter: "\e902";
-$icn-chevron-down: "\e903";
-$icn-chevron-left: "\e904";
-$icn-chevron-right: "\e905";
-$icn-chevron-up: "\e906";
-$icn-heart: "\e907";
-$icn-minus: "\e908";
-$icn-plus: "\e909";
-$icn-reload: "\e90a";
-$icn-search: "\e90b";
-$icn-shopping-cart: "\e90c";
+
+$ic-arrow_right:"\e900";
+$ic-help_icon:"\e901";
+$ic-ico_comerciante:"\e902";
+$ic-ico_consumidor: "\e903";
+$ic-logo:"\e91c";
+$ic-mdi_arrow_drop_down:"\e91d";
+$ic-mdi_keyboard_arrow_right:"\e91e";
+$ic-mdi_language:"\e91f";
+$ic-search-24px:"\e920";
+$ic-search-24px: "\e920";
+$ic-Animais: "\e921";
+$ic-Antiguidades-e-Obras-de-Arte:"\e922";
+$ic-Cultura-e-Lazer:"\e923";
+$ic-Flores-e-Plantas: "\e924";
+$ic-Fotografia:"\e925";
+$ic-Lar: "\e926";
+$ic-Moda-Contemporanea-e-Vintage: "\e927";
+$ic-Moda-Infantil: "\e928";
+$ic-Musica: "\e929";
+$ic-Ourivesaria:"\e92a";
+$ic-Produtos-Alimentares: "\e92b";
+$ic-Produtos-Regionais-e-Artesanato:"\e92c";
+$ic-Restauracao-e-Bebidas:"\e92d";
+$ic-Sapatarias: "\e92e";
+$ic-Saude: "\e92f";
+$ic-Servicos-de-Utilidade-Domestica:"\e930";
+$ic-Tecnologia-e-Equipamentos-Eletronicos: "\e931";
+$ic-Trajes:"\e932";
+$ic-Tudo: "\e933";
+$ic-Turismo:"\e934";
+$ic-Veiculos:"\e935";
