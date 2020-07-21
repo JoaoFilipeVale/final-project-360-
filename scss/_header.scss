@@ -1,4 +1,3 @@
-
 .container-center-horizontal{
     display: flex;
     flex-direction: row;
@@ -7,6 +6,35 @@
     justify-content: center;
     width: 100%;
 }
+
+body{
+    margin: 0; 
+    background: $white;
+    align-items: flex-end;
+    border-color: $graydark;
+    border-style: solid;
+    border-width: 1.0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    min-height: 6150px;
+    overflow: hidden;
+    position: relative;
+    width: 1440.0px;
+        > header{
+            background-color: $graydark;
+            flex-shrink: 0;
+            height: 1672px;
+            margin-right: -150.0px;
+            position: relative;
+            width: 1596px;
+        }
+
+    }
+
+
 
 .flexbox-container {
     a{
@@ -34,7 +62,6 @@
 }
 
 .download-da-app-section {
-    background-color: $graydark;
     height: 1000px;
     left: 107px;
     position: absolute;
@@ -144,31 +171,7 @@
 
 
 
-body{
-    margin: 0; 
-    background: $white;
-    align-items: flex-end;
-    border-color: $graydark;
-    border-style: solid;
-    border-width: 1.0px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    justify-content: flex-start;
-    min-height: 6150px;
-    overflow: hidden;
-    position: relative;
-    width: 1440.0px;
-        > header{
-            background-color: $graydark;
-            flex-shrink: 0;
-            height: 1672px;
-            margin-right: -150.0px;
-            position: relative;
-            width: 1596px;
-        }
-    }
+
 
 
 
