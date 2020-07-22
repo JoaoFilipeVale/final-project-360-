@@ -191,6 +191,7 @@ h3 {
   --palette-color-8: rgba(124,124,124,1.0);
   --palette-color-9: rgba(47,47,47,1.0);
 }
+
  .overlap-group3-FYFnzz {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
@@ -3406,13 +3407,22 @@ h3 {
   width               : auto;
 }
  .porto-bg{
-  background-color    : rgba(255,255,255,0);
   height              : 790px;
   left                : 6px;
   position            : absolute;
   top                 : 0px;
-  width               : 1590px;
+  width               : 1440px;
 }
+
+background-color    : var(--palette-color-1);
+border-radius       : 18.0px;
+box-shadow          : 0px 20px 80px rgba(19,90,112,0.070000000298);;
+height              : 1002px;
+left                : -1px;
+position            : absolute;
+top                 : -1px;
+width               : 1233px;
+
  .categorias-em-destaque-section{
   align-items         : flex-start;
   background-color    : var(--palette-color-1);
