@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500|SFPro+Text:400|SF+Pro Text:500,200,400,700');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:500|SFPro+Text:400|SF+Pro Text:500,200,400,700');
 
 
 html{
@@ -19,6 +19,7 @@ html{
 /* ===================== */
 /* ======= LINKS ======= */
 /* ===================== */
+/*
 a{
   @extend .animate;
   text-decoration: none;
@@ -31,6 +32,7 @@ a{
 /* ======================== */
 /* ======= HEADINGS ======= */
 /* ======================== */
+/*
 h1, h2, h3, h4, h5, h6{
   font-family: $titlesfont, Helvetica, Arial, serif;
   font-weight: 400;
@@ -69,6 +71,7 @@ h1 {
 /* ============================== */
 /* ======= TEXT ALIGNMENT ======= */
 /* ============================== */
+/*
 .textleft{
   text-align: left;
 }
@@ -82,6 +85,7 @@ h1 {
 /* ===================== */
 /* ======= OTHER ======= */
 /* ===================== */
+/*
 small, .small{
   font-size: 0.8rem;
 }
@@ -125,7 +129,7 @@ small, .small{
 }
 
 
-
+/*
 h6 {
   font-family         : SFPro Text, Helvetica, Arial, serif;
   font-weight         : 400;
