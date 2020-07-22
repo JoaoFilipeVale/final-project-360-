@@ -148,7 +148,7 @@
   font-size           : 15.0px;
   font-weight         : 700;
 }
-.font-class-4 {
+h4 {
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-weight         : 200;
 }
@@ -2165,7 +2165,7 @@
   position            : relative;
   width               : 31px;
 }
- .download-da-app-section-Nb4elB {
+ .download-da-app-section {
   background-color    : rgba(255,255,255,0);
   height              : 1000px;
   left                : 107px;
@@ -2183,7 +2183,7 @@
   top                 : -1px;
   width               : 1233px;
 }
- .como-funciona-t3tMu1 {
+ .como-funciona {
   align-items         : center;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
