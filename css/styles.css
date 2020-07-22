@@ -130,7 +130,7 @@
   font-weight         : 400;
 }
 .font-class-10 {
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-weight         : 700;
   letter-spacing      : 2.00px;
@@ -143,7 +143,7 @@
   line-height         : 20.0px;
 }
 .font-class-3 {
-  color               : var(--auto-palette-color-4);
+  color               : var(--palette-color-4);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 15.0px;
   font-weight         : 700;
@@ -160,7 +160,7 @@ h4 {
   font-weight         : 400;
 }
 .font-class-7 {
-  color               : var(--auto-palette-color-5);
+  color               : var(--palette-color-5);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 20.0px;
   font-weight         : 400;
@@ -172,24 +172,24 @@ h4 {
   font-weight         : 400;
   letter-spacing      : 0.15px;
 }
-.font-class-9 {
-  color               : var(--auto-palette-color-2);
+h3 {
+  color               : var(--palette-color-2);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 42.0px;
   font-weight         : 500;
   line-height         : 50.0px;
 }
 :root {
-  --auto-palette-color-1: rgba(255,255,255,1.0);
-  --auto-palette-color-10: rgba(0,0,0,0.119999997318);
-  --auto-palette-color-2: rgba(74,74,74,1.0);
-  --auto-palette-color-3: rgba(114,114,114,1.0);
-  --auto-palette-color-4: rgba(30,160,200,1.0);
-  --auto-palette-color-5: rgba(46,46,46,1.0);
-  --auto-palette-color-6: rgba(240,85,19,1.0);
-  --auto-palette-color-7: rgba(240,58,19,1.0);
-  --auto-palette-color-8: rgba(124,124,124,1.0);
-  --auto-palette-color-9: rgba(47,47,47,1.0);
+  --palette-color-1: rgba(255,255,255,1.0);
+  --palette-color-10: rgba(0,0,0,0.119999997318);
+  --palette-color-2: rgba(74,74,74,1.0);
+  --palette-color-3: rgba(114,114,114,1.0);
+  --palette-color-4: rgba(30,160,200,1.0);
+  --palette-color-5: rgba(46,46,46,1.0);
+  --palette-color-6: rgba(240,85,19,1.0);
+  --palette-color-7: rgba(240,58,19,1.0);
+  --palette-color-8: rgba(124,124,124,1.0);
+  --palette-color-9: rgba(47,47,47,1.0);
 }
  .overlap-group3-FYFnzz {
   background-color    : rgba(255,255,255,0);
@@ -675,7 +675,7 @@ h4 {
 }
  .about-us-rl13Vv {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   flex-shrink         : 0;
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 12.0px;
@@ -690,7 +690,7 @@ h4 {
 }
  .apple-inc-has-decide-zpnuvK {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   flex-shrink         : 0;
   font-size           : 14.0px;
   height              : 83px;
@@ -713,7 +713,7 @@ h4 {
 }
  .rectangle-Rods0F {
   background-color    : rgba(255,255,255,0);
-  border-color        : var(--auto-palette-color-1);
+  border-color        : var(--palette-color-1);
   border-radius       : 34.0px;
   border-style        : solid;
   border-width        : 1.5px;
@@ -725,7 +725,7 @@ h4 {
 }
  .ask-question-OIH00n {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 16.0px;
   font-weight         : 400;
@@ -820,7 +820,7 @@ h4 {
 }
  .popular-trending-cat-vDB0m1 {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   flex-shrink         : 0;
   font-size           : 14.0px;
   height              : 158px;
@@ -857,7 +857,7 @@ h4 {
 }
  .popular-trending-cat-546oCv {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   flex-shrink         : 0;
   font-size           : 14.0px;
   height              : 68px;
@@ -894,7 +894,7 @@ h4 {
 }
  .popular-trending-cat-C51S5H {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   flex-shrink         : 0;
   font-size           : 14.0px;
   height              : 68px;
@@ -1026,7 +1026,7 @@ h4 {
 }
  .header-xcqnxY {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-family         : SFPro Text, Helvetica, Arial, serif;
   font-size           : 15.0px;
   font-weight         : 400;
@@ -1171,7 +1171,7 @@ h4 {
 }
  .popular-trending-cat-xAbUM2 {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   flex-shrink         : 0;
   font-size           : 14.0px;
   height              : 95px;
@@ -1457,7 +1457,7 @@ h4 {
 }
  .only-available-for-f-PCARiI {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   font-size           : 16.0px;
   height              : 79px;
   left                : 23px;
@@ -1500,7 +1500,7 @@ h4 {
 }
  .only-available-for-f-q0KGxv {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   font-size           : 16.0px;
   height              : 58px;
   left                : 20px;
@@ -1519,7 +1519,7 @@ h4 {
   width               : 1441px;
 }
  .rectangle-UQw4FY {
-  background-color    : var(--auto-palette-color-4);
+  background-color    : var(--palette-color-4);
   height              : 162px;
   left                : -1px;
   position            : absolute;
@@ -1563,7 +1563,7 @@ h4 {
   width               : 320px;
 }
  .rectangle-i7xxf5 {
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 100.0px;
   height              : 49px;
   left                : -1px;
@@ -1573,7 +1573,7 @@ h4 {
 }
  .your-e-mail-adress-Ki1Zcw {
   background-color    : rgba(124,124,124,0);
-  color               : var(--auto-palette-color-8);
+  color               : var(--palette-color-8);
   font-size           : 14.0px;
   height              : 26px;
   left                : 24px;
@@ -1739,7 +1739,7 @@ h4 {
 }
  .para-o-comercio-e-cliente-section-BQGMaT {
   align-items         : flex-end;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   box-sizing          : border-box;
   display             : flex;
   flex-direction      : column;
@@ -1779,7 +1779,7 @@ h4 {
 }
  .header-MHXH8T {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 28.0px;
   height              : auto;
@@ -1793,7 +1793,7 @@ h4 {
 }
  .header-QVNBuh {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -1839,7 +1839,7 @@ h4 {
   width               : 281px;
 }
  .states-UkS34z {
-  background-color    : var(--auto-palette-color-6);
+  background-color    : var(--palette-color-6);
   border-radius       : 25.0px;
   height              : 50px;
   left                : 0px;
@@ -1849,7 +1849,7 @@ h4 {
 }
  .texto-MBgZ2h {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 18.0px;
   font-weight         : 400;
@@ -1901,7 +1901,7 @@ h4 {
 }
  .header-ePemxu {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 28.0px;
   height              : auto;
@@ -1915,7 +1915,7 @@ h4 {
 }
  .header-yuRs6V {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -1962,7 +1962,7 @@ h4 {
   width               : 281px;
 }
  .states-xJJy31 {
-  background-color    : var(--auto-palette-color-7);
+  background-color    : var(--palette-color-7);
   border-radius       : 25.0px;
   height              : 50px;
   left                : 0px;
@@ -1972,7 +1972,7 @@ h4 {
 }
  .texto-n3uxQf {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 18.0px;
   font-weight         : 400;
@@ -2105,7 +2105,7 @@ h4 {
 }
  .header-6ppNQV {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 20.0px;
   height              : auto;
   left                : 16px;
@@ -2117,7 +2117,7 @@ h4 {
 }
  .header-YQGGsV {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 16.0px;
   height              : auto;
   left                : 16px;
@@ -2174,7 +2174,7 @@ h4 {
   width               : 1231px;
 }
  .rectangle-mvS9ht {
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 18.0px;
   box-shadow          : 0px 20px 80px rgba(19,90,112,0.070000000298);;
   height              : 1002px;
@@ -2213,7 +2213,7 @@ h4 {
 }
  .description-XtKNUY {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 15.0px;
   height              : auto;
@@ -2227,7 +2227,7 @@ h4 {
 }
  .title-lpEDA7 {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -2264,7 +2264,7 @@ h4 {
 }
  .description-yS7LoS {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 15.0px;
   height              : auto;
@@ -2278,7 +2278,7 @@ h4 {
 }
  .title-tsPTpx {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -2315,7 +2315,7 @@ h4 {
 }
  .description-V13OKA {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 15.0px;
   height              : auto;
@@ -2328,7 +2328,7 @@ h4 {
 }
  .title-GItcFg {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -2422,7 +2422,7 @@ h4 {
 }
  .sub-title-UcLnXk {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -2456,7 +2456,7 @@ h4 {
 }
  .header-AP1qPA {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 42.0px;
@@ -2471,7 +2471,7 @@ h4 {
 }
  .header-bwE9ay {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 18.0px;
   height              : auto;
@@ -2558,7 +2558,7 @@ h4 {
 }
  .sub-title-GU6peF {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -2603,7 +2603,7 @@ h4 {
 }
  .header-zBU0UO {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 20.0px;
   font-weight         : 400;
@@ -2618,7 +2618,7 @@ h4 {
 }
  .header-CxqDgB {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 16.0px;
   height              : auto;
   left                : 24px;
@@ -2686,7 +2686,7 @@ h4 {
 }
  .header-HIex41 {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 20.0px;
   height              : auto;
   left                : 16px;
@@ -2698,7 +2698,7 @@ h4 {
 }
  .header-SKhvmZ {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 16.0px;
   height              : auto;
   left                : 16px;
@@ -2766,7 +2766,7 @@ h4 {
 }
  .header-LrGx5a {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 20.0px;
   height              : auto;
   left                : 16px;
@@ -2778,7 +2778,7 @@ h4 {
 }
  .header-ThoZk9 {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 16.0px;
   height              : auto;
   left                : 16px;
@@ -2846,7 +2846,7 @@ h4 {
 }
  .header-DvTkN6 {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 20.0px;
   height              : auto;
   left                : 16px;
@@ -2858,7 +2858,7 @@ h4 {
 }
  .header-AOCwA6 {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 16.0px;
   height              : auto;
   left                : 16px;
@@ -2925,7 +2925,7 @@ h4 {
 }
  .header-mW8FL5 {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 20.0px;
   height              : auto;
   left                : 16px;
@@ -2937,7 +2937,7 @@ h4 {
 }
  .header-MZ4qcZ {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-size           : 16.0px;
   height              : auto;
   left                : 16px;
@@ -3003,7 +3003,7 @@ h4 {
 }
  .color-myxxxa {
   background-color    : rgba(255,255,255,0);
-  border-color        : var(--auto-palette-color-4);
+  border-color        : var(--palette-color-4);
   border-radius       : 25.0px;
   border-style        : solid;
   border-width        : 1.0px;
@@ -3014,7 +3014,7 @@ h4 {
   width               : 100px;
 }
  .states-WQKhNQ {
-  background-color    : var(--auto-palette-color-4);
+  background-color    : var(--palette-color-4);
   border-radius       : 25.0px;
   height              : 34px;
   left                : -1px;
@@ -3024,7 +3024,7 @@ h4 {
 }
  .texto-eNORHR {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-family         : Roboto, Helvetica, Arial, serif;
   font-size           : 16.0px;
   font-weight         : 500;
@@ -3081,8 +3081,8 @@ h4 {
   width               : 298px;
 }
  .color-l-container-i4rOEK {
-  background-color    : var(--auto-palette-color-1);
-  border-color        : var(--auto-palette-color-10);
+  background-color    : var(--palette-color-1);
+  border-color        : var(--palette-color-10);
   border-radius       : 10.0px;
   border-style        : solid;
   border-width        : 0.5px;
@@ -3109,7 +3109,7 @@ h4 {
 }
  .header-V5IXPo {
   background-color    : rgba(47,47,47,0);
-  color               : var(--auto-palette-color-9);
+  color               : var(--palette-color-9);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -3122,7 +3122,7 @@ h4 {
 }
  .header-xiSavQ {
   background-color    : rgba(124,124,124,0);
-  color               : var(--auto-palette-color-8);
+  color               : var(--palette-color-8);
   font-size           : 16.0px;
   height              : auto;
   left                : 16px;
@@ -3176,7 +3176,7 @@ h4 {
 }
  .color-FCjjHx {
   background-color    : rgba(255,255,255,0);
-  border-color        : var(--auto-palette-color-4);
+  border-color        : var(--palette-color-4);
   border-radius       : 25.0px;
   border-style        : solid;
   border-width        : 1.0px;
@@ -3187,7 +3187,7 @@ h4 {
   width               : 100px;
 }
  .states-vo8VKj {
-  background-color    : var(--auto-palette-color-4);
+  background-color    : var(--palette-color-4);
   border-radius       : 25.0px;
   height              : 34px;
   left                : -1px;
@@ -3197,7 +3197,7 @@ h4 {
 }
  .texto-W11Xv7 {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-family         : Roboto, Helvetica, Arial, serif;
   font-size           : 16.0px;
   font-weight         : 500;
@@ -3301,7 +3301,7 @@ h4 {
 }
  .header-QAQ5uW {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 28.0px;
@@ -3318,7 +3318,7 @@ h4 {
 }
  .header-WxUCEm {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -3357,7 +3357,7 @@ h4 {
 }
  .color-nt4n7v {
   background-color    : rgba(255,255,255,0);
-  border-color        : var(--auto-palette-color-7);
+  border-color        : var(--palette-color-7);
   border-radius       : 25.0px;
   border-style        : solid;
   border-width        : 1.0px;
@@ -3378,7 +3378,7 @@ h4 {
 }
  .texto-DgyN18 {
   background-color    : rgba(240,58,19,0);
-  color               : var(--auto-palette-color-7);
+  color               : var(--palette-color-7);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 18.0px;
   font-weight         : 500;
@@ -3415,7 +3415,7 @@ h4 {
 }
  .categorias-em-destaque-section{
   align-items         : flex-start;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   box-sizing          : border-box;
   display             : flex;
   flex-direction      : column;
@@ -3430,7 +3430,7 @@ h4 {
 }
  .texto-dxGhuQ {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : auto;
   margin-left         : 14.0px;
@@ -3595,7 +3595,7 @@ h4 {
 }
  .texto-Iiy6AC {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   height              : 20px;
   left                : 246px;
   position            : absolute;
@@ -3638,8 +3638,8 @@ h4 {
   width               : 298px;
 }
  .color-l-container-zIjQ8H {
-  background-color    : var(--auto-palette-color-1);
-  border-color        : var(--auto-palette-color-10);
+  background-color    : var(--palette-color-1);
+  border-color        : var(--palette-color-10);
   border-radius       : 10.0px;
   border-style        : solid;
   border-width        : 0.5px;
@@ -3666,7 +3666,7 @@ h4 {
 }
  .header-BBV4qk {
   background-color    : rgba(47,47,47,0);
-  color               : var(--auto-palette-color-9);
+  color               : var(--palette-color-9);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -3679,7 +3679,7 @@ h4 {
 }
  .header-axtcSD {
   background-color    : rgba(124,124,124,0);
-  color               : var(--auto-palette-color-8);
+  color               : var(--palette-color-8);
   font-size           : 16.0px;
   height              : auto;
   left                : 16px;
@@ -3733,7 +3733,7 @@ h4 {
 }
  .color-ra38tx {
   background-color    : rgba(255,255,255,0);
-  border-color        : var(--auto-palette-color-4);
+  border-color        : var(--palette-color-4);
   border-radius       : 25.0px;
   border-style        : solid;
   border-width        : 1.0px;
@@ -3744,7 +3744,7 @@ h4 {
   width               : 100px;
 }
  .states-CoSp69 {
-  background-color    : var(--auto-palette-color-4);
+  background-color    : var(--palette-color-4);
   border-radius       : 25.0px;
   height              : 34px;
   left                : -1px;
@@ -3754,7 +3754,7 @@ h4 {
 }
  .texto-EgY8eq {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   font-family         : Roboto, Helvetica, Arial, serif;
   font-size           : 16.0px;
   font-weight         : 500;
@@ -3811,8 +3811,8 @@ h4 {
   width               : 298px;
 }
  .color-l-container-8W0Qu4 {
-  background-color    : var(--auto-palette-color-1);
-  border-color        : var(--auto-palette-color-10);
+  background-color    : var(--palette-color-1);
+  border-color        : var(--palette-color-10);
   border-radius       : 10.0px;
   border-style        : solid;
   border-width        : 0.5px;
@@ -3839,7 +3839,7 @@ h4 {
 }
  .header-YQgp6K {
   background-color    : rgba(47,47,47,0);
-  color               : var(--auto-palette-color-9);
+  color               : var(--palette-color-9);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -3852,7 +3852,7 @@ h4 {
 }
  .header-VJr8hn {
   background-color    : rgba(124,124,124,0);
-  color               : var(--auto-palette-color-8);
+  color               : var(--palette-color-8);
   font-size           : 16.0px;
   height              : auto;
   left                : 16px;
@@ -4004,7 +4004,7 @@ h4 {
 }
  .texto-w7aCEj {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   height              : 20px;
   left                : 246px;
   position            : absolute;
@@ -4014,7 +4014,7 @@ h4 {
 }
  .card-promocao-vertical-medium-8-Wr7JTX {
   align-items         : center;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 10.0px;
   box-shadow          : 0px 1px 2px rgba(15,49,77,0.10000000149);;
   box-sizing          : border-box;
@@ -4216,7 +4216,7 @@ h4 {
 }
  .hours-MVrUrC {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -4262,7 +4262,7 @@ h4 {
 }
  .minutes-QmDn8e {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -4308,7 +4308,7 @@ h4 {
 }
  .secs-uujXxu {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -4322,7 +4322,7 @@ h4 {
 }
  .texto-Ax817u {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : 20px;
   margin-left         : 5.0px;
@@ -4428,7 +4428,7 @@ h4 {
 }
  .texto-WpT1S7 {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : 20px;
   margin-left         : 24.0px;
@@ -4441,7 +4441,7 @@ h4 {
 }
  .card-promocao-vertical-medium-7-Zsqhst {
   align-items         : center;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 10.0px;
   box-shadow          : 0px 1px 2px rgba(15,49,77,0.10000000149);;
   box-sizing          : border-box;
@@ -4643,7 +4643,7 @@ h4 {
 }
  .hours-MtOwZ0 {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -4689,7 +4689,7 @@ h4 {
 }
  .minutes-xm67nc {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -4735,7 +4735,7 @@ h4 {
 }
  .secs-IhJE38 {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -4749,7 +4749,7 @@ h4 {
 }
  .texto-FjXsHt {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : 20px;
   margin-left         : 5.0px;
@@ -4784,7 +4784,7 @@ h4 {
 }
  .texto-EGe4tV {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : auto;
   margin-left         : 16.0px;
@@ -4869,7 +4869,7 @@ h4 {
 }
  .texto-JnzvJV {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   height              : 20px;
   left                : 246px;
   position            : absolute;
@@ -4879,7 +4879,7 @@ h4 {
 }
  .card-promocao-vertical-medium-5-MJD112 {
   align-items         : flex-start;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 10.0px;
   box-shadow          : 0px 1px 2px rgba(15,49,77,0.10000000149);;
   box-sizing          : border-box;
@@ -4902,7 +4902,7 @@ h4 {
 }
  .texto-PtdbzZ {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   height              : 20px;
   left                : 244px;
   position            : absolute;
@@ -5052,7 +5052,7 @@ h4 {
  .texto-tPlZV3 {
   align-self          : center;
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : auto;
   margin-right        : 15.0px;
@@ -5118,7 +5118,7 @@ h4 {
 }
  .hours-kmsi7M {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -5164,7 +5164,7 @@ h4 {
 }
  .minutes-YsdbQt {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -5210,7 +5210,7 @@ h4 {
 }
  .secs-Th6B6N {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -5297,7 +5297,7 @@ h4 {
 }
  .sub-title-xAN1jf {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -5310,7 +5310,7 @@ h4 {
 }
  .card-promocao-vertical-medium-6-4NHSfn {
   align-items         : center;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 10.0px;
   box-shadow          : 0px 1px 2px rgba(15,49,77,0.10000000149);;
   box-sizing          : border-box;
@@ -5509,7 +5509,7 @@ h4 {
 }
  .hours-VfIiVR {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -5555,7 +5555,7 @@ h4 {
 }
  .minutes-HBkAqw {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -5601,7 +5601,7 @@ h4 {
 }
  .secs-WWePZk {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   font-size           : 12.0px;
   height              : auto;
@@ -5615,7 +5615,7 @@ h4 {
 }
  .texto-K29t8A {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : 20px;
   margin-top          : 15px;
@@ -5644,7 +5644,7 @@ h4 {
 }
  .texto-PU3oMa {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   height              : auto;
   left                : 28px;
   position            : absolute;
@@ -5771,7 +5771,7 @@ h4 {
 }
  .card-promocao-vertical-medium-8-xDqtdx {
   align-items         : flex-start;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 10.0px;
   box-shadow          : 0px 1px 2px rgba(15,49,77,0.10000000149);;
   box-sizing          : border-box;
@@ -5900,7 +5900,7 @@ h4 {
 }
  .texto-EZh9mx {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : auto;
   margin-left         : 14.0px;
@@ -6070,7 +6070,7 @@ h4 {
 }
  .texto-hK09BL {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   height              : 20px;
   left                : 246px;
   position            : absolute;
@@ -6126,7 +6126,7 @@ h4 {
 }
  .color-8biaxZ {
   background-color    : rgba(255,255,255,0);
-  border-color        : var(--auto-palette-color-6);
+  border-color        : var(--palette-color-6);
   border-radius       : 25.0px;
   border-style        : solid;
   border-width        : 1.0px;
@@ -6147,7 +6147,7 @@ h4 {
 }
  .texto-yTec6v {
   background-color    : rgba(240,85,19,0);
-  color               : var(--auto-palette-color-6);
+  color               : var(--palette-color-6);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 15.0px;
   font-weight         : 500;
@@ -6345,7 +6345,7 @@ h4 {
 }
  .card-promocao-vertical-medium-7-3iRKFQ {
   align-items         : flex-start;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 10.0px;
   box-shadow          : 0px 1px 2px rgba(15,49,77,0.10000000149);;
   box-sizing          : border-box;
@@ -6474,7 +6474,7 @@ h4 {
 }
  .texto-Kf6ztc {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : auto;
   margin-left         : 16.0px;
@@ -6644,7 +6644,7 @@ h4 {
 }
  .texto-Eq9W1c {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   height              : 20px;
   left                : 246px;
   position            : absolute;
@@ -6742,7 +6742,7 @@ h4 {
 }
  .texto-UwHQAD {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : auto;
   margin-right        : 9.0px;
@@ -6912,7 +6912,7 @@ h4 {
 }
  .texto-Mfwe5h {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   height              : 20px;
   left                : 246px;
   position            : absolute;
@@ -6943,7 +6943,7 @@ h4 {
 }
  .card-promocao-vertical-medium-5-x2Yu8H {
   align-items         : flex-start;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 10.0px;
   box-shadow          : 0px 1px 2px rgba(15,49,77,0.10000000149);;
   box-sizing          : border-box;
@@ -6966,7 +6966,7 @@ h4 {
 }
  .texto-UyR4gc {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
+  color               : var(--palette-color-1);
   height              : 20px;
   left                : 244px;
   position            : absolute;
@@ -7081,7 +7081,7 @@ h4 {
 }
  .texto-cQxTw1 {
   background-color    : rgba(114,114,114,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--palette-color-3);
   flex-shrink         : 0;
   height              : auto;
   margin-right        : 3.0px;
@@ -7122,7 +7122,7 @@ h4 {
 }
  {
   align-items         : flex-end;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-color        : rgba(255,255,255,0);
   border-style        : solid;
   border-width        : 1.0px;
@@ -7146,7 +7146,7 @@ h4 {
 }
  .promocao-section-g1xCrL {
   align-items         : center;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   box-sizing          : border-box;
   display             : flex;
   flex-direction      : column;
@@ -7185,7 +7185,7 @@ h4 {
 }
  .sub-title-5SiPUx {
   background-color    : rgba(74,74,74,0);
-  color               : var(--auto-palette-color-2);
+  color               : var(--palette-color-2);
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -7223,7 +7223,7 @@ h4 {
 }
  .color-dqpGet {
   background-color    : rgba(255,255,255,0);
-  border-color        : var(--auto-palette-color-6);
+  border-color        : var(--palette-color-6);
   border-radius       : 25.0px;
   border-style        : solid;
   border-width        : 1.0px;
@@ -7244,7 +7244,7 @@ h4 {
 }
  .texto-YSk6Ax {
   background-color    : rgba(240,85,19,0);
-  color               : var(--auto-palette-color-6);
+  color               : var(--palette-color-6);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 15.0px;
   font-weight         : 500;
@@ -7284,7 +7284,7 @@ h4 {
 }
  .card-promocao-vertical-medium-6-BELkeK {
   align-items         : flex-start;
-  background-color    : var(--auto-palette-color-1);
+  background-color    : var(--palette-color-1);
   border-radius       : 10.0px;
   box-shadow          : 0px 1px 2px rgba(15,49,77,0.10000000149);;
   box-sizing          : border-box;
@@ -7327,7 +7327,7 @@ h4 {
 }
  .color-QzRstT {
   background-color    : rgba(255,255,255,0);
-  border-color        : var(--auto-palette-color-7);
+  border-color        : var(--palette-color-7);
   border-radius       : 25.0px;
   border-style        : solid;
   border-width        : 1.0px;
@@ -7348,7 +7348,7 @@ h4 {
 }
  .texto-KEKtM0 {
   background-color    : rgba(240,58,19,0);
-  color               : var(--auto-palette-color-7);
+  color               : var(--palette-color-7);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 15.0px;
   font-weight         : 500;
