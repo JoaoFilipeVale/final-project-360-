@@ -7120,22 +7120,7 @@ h3 {
   font-weight         : 400;
   letter-spacing      : 0.00px;
 }
- {
-  align-items         : flex-end;
-  background-color    : var(--palette-color-1);
-  border-color        : rgba(255,255,255,0);
-  border-style        : solid;
-  border-width        : 1.0px;
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  height              : auto;
-  justify-content     : flex-start;
-  min-height          : 6150px;
-  overflow            : hidden;
-  position            : relative;
-  width               : 1440.0px;
-}
+
  .bg-section-dobra-3-MgZzaf {
   background-color    : rgba(232,240,243,1.0);
   height              : 882px;
