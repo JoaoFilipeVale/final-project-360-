@@ -7,6 +7,22 @@
     width: 100%;
 }
 
+.container{
+    pointer-events      : none;
+    display             : flex;
+    flex-direction      : row;
+    padding             : 0;
+    margin              : 0;
+      .center-vertical {
+      align-items         : center;
+      height              : 100%;
+      }
+      .center-horizontal {
+      justify-content     : center;
+      width               : 100%;
+      }
+  }
+  
 
 body{
     margin: 0; 
