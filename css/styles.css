@@ -34,11 +34,11 @@
   justify-content     : flex-end;
 }
 * {
-  box-sizing          : border-box;
+  box-sizing: border-box;
 }
 .component-wrapper,
 .component-wrapper * {
-  pointer-events      : none;
+  pointer-events: none;
 }
 .component-wrapper a *,
 .component-wrapper a,
@@ -47,7 +47,7 @@
 .component-wrapper iframe,
 .listeners-active,
 .listeners-active * {
-  pointer-events      : auto;
+  pointer-events: auto;
 }
 .hidden,
 .hidden * {
@@ -124,7 +124,7 @@
 .auto-animated .container-center-horizontal {
   opacity             : 1;
 }
-/* ANIMA screen - shopinportohomepage */
+/* shopinportohomepage */
 .font-class-1 {
   font-family         : SFPro Text, Helvetica, Arial, serif;
   font-weight         : 400;
