@@ -121,7 +121,7 @@
 h4 {
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-weight         : 200;
-  background-color    : $gray;
+  color    : $gray;
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -157,6 +157,7 @@ h3 {
   font-size           : 42.0px;
   font-weight         : 500;
   line-height         : 50.0px;
+  text-align          : center;s
 }
 :root {
   --palette-color-1: rgba(255,255,255,1.0);
@@ -166,7 +167,6 @@ h3 {
   --palette-color-4: rgba(30,160,200,1.0);
   --palette-color-5: rgba(46,46,46,1.0);
   --palette-color-6: rgba(240,85,19,1.0);
-  --palette-color-7: rgba(240,58,19,1.0);
   --palette-color-8: rgba(124,124,124,1.0);
   --palette-color-9: rgba(47,47,47,1.0);
 }
@@ -680,6 +680,7 @@ h3 {
   margin-top          : 0px;
   position            : relative;
   width               : 1440px;
+  background-image: url(".../img/img11.svg");
 }
  .overlap-group-Y7zamN {
   flex-shrink         : 0;
@@ -1686,13 +1687,7 @@ footer{
   position            : relative;
   width               : 283px;
 }
- .box-WsUkUg {
-  height              : 48px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 281px;
-}
+
  .elevation-oHwcIT {
   border-radius       : 25.0px;
   height              : 50px;
@@ -1709,14 +1704,15 @@ footer{
   top                 : 0px;
   width               : 281px;
 }
- .states-xJJy31 {
-  background-color    : var(--palette-color-7);
-  border-radius       : 25.0px;
-  height              : 50px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 283px;
+
+.bttn-promova {
+  background-color : var(--palette-color-6);
+  border-radius: 25.0px;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 283px;
 }
  .texto-n3uxQf {
   color               : var(--palette-color-1);
@@ -2922,7 +2918,7 @@ footer{
   width               : 219px;
 }
  .color-nt4n7v {
-  border-color        : var(--palette-color-7);
+  border-color        : var(--palette-color-6);
   border-radius       : 25.0px;
   border-style        : solid;
   border-width        : 1.0px;
@@ -2942,7 +2938,7 @@ footer{
 }
  .texto-DgyN18 {
   background-color    : rgba(240,58,19,0);
-  color               : var(--palette-color-7);
+  color               : var(--palette-color-6);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 18.0px;
   font-weight         : 500;
@@ -5239,14 +5235,7 @@ footer{
   position            : relative;
   width               : 296px;
 }
- .imagem-pYDxs6 {
-  background-color    : rgba(196,196,196,0);
-  height              : 200px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 296px;
-}
+
  .favorito-uCZ6XO {
   align-items         : flex-end;
   background-image    : url(".././img/ellipse-1@2x.png");
@@ -5772,14 +5761,7 @@ footer{
   position            : relative;
   width               : 296px;
 }
- .imagem-YWKsdk {
-  background-color    : rgba(196,196,196,0);
-  height              : 200px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 296px;
-}
+
  .favorito-UxkMGS {
   align-items         : flex-end;
   background-image    : url(".././img/ellipse-1@2x.png");
@@ -6327,14 +6309,6 @@ footer{
   position            : relative;
   width               : 296px;
 }
- .imagem-R0550Z {
-  background-color    : rgba(196,196,196,0);
-  height              : 200px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 296px;
-}
  .texto-UyR4gc {
   color               : var(--palette-color-1);
   height              : 20px;
@@ -6660,7 +6634,7 @@ footer{
   width               : 167px;
 }
  .color-QzRstT {
-  border-color        : var(--palette-color-7);
+  border-color        : var(--palette-color-6);
   border-radius       : 25.0px;
   border-style        : solid;
   border-width        : 1.0px;
@@ -6680,7 +6654,7 @@ footer{
 }
  .texto-KEKtM0 {
   background-color    : rgba(240,58,19,0);
-  color               : var(--palette-color-7);
+  color               : var(--palette-color-6);
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-size           : 15.0px;
   font-weight         : 500;
@@ -6716,14 +6690,7 @@ footer{
   top                 : 12px;
   width               : 1px;
 }
- .imagem-Hn5yER {
-  background-color    : rgba(196,196,196,0);
-  height              : 200px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 296px;
-}
+
  .favorito-O3oh8b {
   align-items         : flex-end;
   background-image    : url(".././img/ellipse-1@2x.png");
