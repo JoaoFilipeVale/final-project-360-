@@ -2,14 +2,14 @@
 
 
 .valign-text-middle {
-  display             : flex;
-  flex-direction      : column;
-  justify-content     : center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .valign-text-bottom {
-  display             : flex;
-  flex-direction      : column;
-  justify-content     : flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 * {
   box-sizing: border-box;
@@ -29,62 +29,62 @@
 }
 .hidden,
 .hidden * {
-  visibility          : hidden;
-  pointer-events      : none;
+  visibility: hidden;
+  pointer-events: none;
 }
 .smart-layers-pointers,
 .smart-layers-pointers * {
-  pointer-events      : auto;
-  visibility          : visible;
+  pointer-events: auto;
+  visibility: visible;
 }
 .component-wrapper.not-ready,
 .component-wrapper.not-ready * {
-  visibility          : hidden !important;
+  visibility: hidden !important;
 }
 .listeners-active-click,
 .listeners-active-click * {
-  cursor              : pointer;
+  cursor: pointer;
 }
 .component-wrapper a,
 .screen a {
-  text-decoration     : none;
+  text-decoration: none;
 }
 .flexbox-container a {
-  line-height         : 0;
+  line-height: 0;
 }
 .full-width-a {
-  width               : 100%;
+  width: 100%;
 }
 .full-height-a {
-  height              : 100%;
+  height: 100%;
 }
 .screen textarea:focus,
 .screen input:focus {
-  outline             : none;
+  outline: none;
 }
 .screen div {
   -webkit-text-size-adjust: none;
 }
 .container-center-vertical,
 .container-center-horizontal {
-  pointer-events      : none;
-  display             : flex;
-  flex-direction      : row;
-  padding             : 0;
-  margin              : 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
 }
 .container-center-vertical {
-  align-items         : center;
-  height              : 100%;
+  align-items: center;
+  height: 100%;
 }
 .container-center-horizontal {
-  justify-content     : center;
-  width               : 100%;
+  justify-content: center;
+  width: 100%;
 }
 .container-center-vertical > *,
 .container-center-horizontal > * {
-  pointer-events      : auto;
-  flex-shrink         : 0;
+  pointer-events: auto;
+  flex-shrink: 0;
 }
 .component-wrapper,
 .screen {
@@ -121,7 +121,7 @@
 h4 {
   font-family         : SF Pro Text, Helvetica, Arial, serif;
   font-weight         : 200;
-  color    : $gray;
+  color    : gray;
   flex-shrink         : 0;
   font-size           : 22.0px;
   height              : auto;
@@ -157,7 +157,7 @@ h3 {
   font-size           : 42.0px;
   font-weight         : 500;
   line-height         : 50.0px;
-  text-align          : center;s
+  text-align          : center;
 }
 :root {
   --palette-color-1: rgba(255,255,255,1.0);
@@ -1819,14 +1819,7 @@ footer{
   position            : relative;
   width               : 30px;
 }
- .color-l-container-Od92GU {
-  border-radius       : 10.0px;
-  height              : 232px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 297px;
-}
+
  .header-6ppNQV {
   color               : var(--palette-color-1);
   font-size           : 20.0px;
@@ -1856,14 +1849,7 @@ footer{
   top                 : 16px;
   width               : 48px;
 }
- .ellipse-6-dwQAsL {
-  background-color    : rgba(30,160,200,0);
-  height              : 52px;
-  left                : -2px;
-  position            : absolute;
-  top                 : -1px;
-  width               : 52px;
-}
+
  .icon-categoria-animais-Ghj4Ja {
   align-items         : flex-start;
   box-sizing          : border-box;
@@ -2450,14 +2436,6 @@ footer{
   position            : relative;
   width               : 33px;
 }
- .color-l-container-r0cZw0 {
-  border-radius       : 10.0px;
-  height              : 232px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 297px;
-}
 
  .header-DvTkN6 {
   color               : var(--palette-color-1);
@@ -2488,14 +2466,7 @@ footer{
   top                 : 16px;
   width               : 48px;
 }
- .ellipse-2-LaD9xg {
-  background-color    : rgba(30,160,200,0);
-  height              : 52px;
-  left                : -2px;
-  position            : absolute;
-  top                 : -1px;
-  width               : 52px;
-}
+
  .icon-categoria-veiculos-7Rn774 {
   align-items         : flex-end;
   box-sizing          : border-box;
@@ -2514,14 +2485,6 @@ footer{
   height              : 22px;
   position            : relative;
   width               : 30px;
-}
- .color-l-container-EzsmfK {
-  border-radius       : 10.0px;
-  height              : 232px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 606px;
 }
 
  .header-mW8FL5 {
@@ -2565,14 +2528,7 @@ footer{
   position            : relative;
   width               : 49px;
 }
- .ellipse-2-lPym6d {
-  background-color    : rgba(30,160,200,0);
-  height              : 52px;
-  left                : -3px;
-  position            : absolute;
-  top                 : -1px;
-  width               : 53px;
-}
+
  .btn-mais-voos-EUtWWE {
   height              : 32px;
   left                : 16px;
