@@ -2,13 +2,13 @@
     <head>
         <title>Shop in Porto</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <meta charset='UTF-8'>
         <link rel="stylesheet" type="text/css" href="fonts/font.css">
         <link rel="stylesheet" type="text/css" href="app.css">
     </head>
     <body>
         <div class='video'>
-            <video autoplay>
+            <video autoplay muted autoplay loop>
                 <source src="ShopinPorto_VideoPromocional.mp4" type="video/mp4">
             </video>
         </div>
@@ -20,12 +20,17 @@
                     <img src='imgs/logo.svg'>
                 </div>
             
-                <div class='right-menu name'>
-                    <a href='' title='Linguagem'><img src='./imgs/language.svg' alt='Linguagem'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
-                    <a href='' title='Ajuda'><img src='./imgs/help_icon.svg' alt='Ajuda'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
-                    <a href='' title='Sou Consumidor'><img src='./imgs/ico_consumidor.svg' alt='Consumidor'> Sou Consumidor</a>
-                    <a href='' title='Sou Comerciante' class='border'><img src='./imgs/ico_comerciante.svg' alt='Comenciante'> Sou Comerciante</a>
+                <div class='right-menu'>
+                    <div>
+                        <a href='' title='Linguagem'><img src='./imgs/language.svg' alt='Linguagem'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
+                        <a href='' title='Ajuda'><img src='./imgs/help_icon.svg' alt='Ajuda'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
+                    </div>
+                    <div>
+                        <a href='' title='Sou Consumidor'><img src='./imgs/ico_consumidor.svg' alt='Consumidor'> Sou Consumidor</a>
+                        <a href='' title='Sou Comerciante' class='border'><img src='./imgs/ico_comerciante.svg' alt='Comenciante'> Sou Comerciante</a>
+                    </div>
                 </div>
+            </div>    
         </div>
 
         <!-- Explore -->
@@ -304,12 +309,12 @@
             <div class='content'>                
                 <h3 class='title'>É comerciante?</h3>
                 <h4 class='sub-title color-gray'>Ainda não tem a sua loja publicada no Shop in Porto? Cadastre-se agora!</h4>
-                <div class=''>
-                    <a href="" class="full-orange">PROMOVA AGORA <img src="./imgs/ico_arrow_right2.png" alt="Arrow Right"></a> 
+                <div class='flex-content button'>
+                    <a href='' class="full-orange-2">PROMOVA AGORA <img src="./imgs/ico_arrow_right2.png" alt="Arrow Right"></a> 
                 </div>
     
-                <div class="">
-                    <p>ou Veja o nosso FAQ</p>
+                <div class="flex-content button">
+                    <a href=''>ou <u>Veja o nosso FAQ</u></a>
                 </div>
             </div>      
         </div>
@@ -331,7 +336,7 @@
                         </div>
                         <div class='info'>
                             <div class="name">Hard Rock Café</div>
-                            <div class="description"><img src="./imgs/ico_restauração e bebidas.svg" alt="Restauração e Bebidas"> RESTAURAÇÃO E BEBIDAS</div>
+                            <div class="description"><img src="./imgs/ico_restauracao_e_bebidas.svg" alt="Restauração e Bebidas"> RESTAURAÇÃO E BEBIDAS</div>
                             <div class='horario'>
                                 <label class='close'>Fechado</label> Abre sex. às 10:00
                             </div>  
@@ -381,11 +386,10 @@
                             <div class="name">Maria Algodão</div>
                             <div class="description"><img src="./imgs/ico_moda.svg" alt="Moda Contemporânia"> MODA CONTEMPRÂNIA</div>
                             <div class='horario'>
-                                <label class='open'>Abeto</label> Fecha às 21:00
+                                <label class='open'>Aberto</label> Fecha às 21:00
                             </div>  
                         </div>
                     </div>
-
                 </div>
 
                 <a href='' class='see-more'>Ver todas <img class="center-icon" src="./imgs/ico_arrow_right.png" alt="Arrow Right"></a>
@@ -472,12 +476,15 @@
                         <img src='imgs/logo.svg'>
                     </div>
                     <div class='e-mail'>
-                        <input placeholder="Seu endereço de e-mail" />
+                        <input placeholder="Seu endereço de e-mail"><button type='submit'><img src="./imgs/ico_arrow_right_blue.svg" alt="Arrow Right bg-color-blue"></button></input>
+                        <button type='submit'><img src="./imgs/ico_arrow_right_blue.svg" alt="Arrow Right bg-color-blue"></button>
                     </div>
                 </div>
             </div>
         </div>
 
+
+        <!-- Footer -->
         <div class='footer bg-color-blue-3 p-relative'>
             <div class='content'>
                 

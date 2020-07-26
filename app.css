@@ -58,7 +58,7 @@
     width: 165px;
     text-decoration: none;
     text-transform: uppercase;
-}
+}  
 
 .full-orange {
     background-color: rgb(240, 85, 19);
@@ -72,6 +72,24 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.full-orange-2 {
+    background-color: rgb(240, 85, 19);
+    border: 1px solid rgb(240, 85, 19);
+    color: white;
+    border-radius: 30px;
+    line-height: 38px;
+    text-align: center;
+    display: table;
+    width: 248px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+body a {
+    text-decoration: none;
+}
+
 
 @media all and (max-width:1200px) and (min-width:960px)
 {
@@ -271,15 +289,23 @@
 
 /** Head - Right Menu **/
 
-.right-menu .name {
-    font-size: 14px;
-    font-family: 'SFmedium';
+.right-menu {
     margin: 20px 0px;
-    color: white;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.right-menu .border {
-    height: 36px;
+.right-menu a {
+    font-size: 14px;
+    font-family: 'SFmedium';
+    color: white;
+    padding: 10px;
+}
+
+.border {
+    height: 100px;
     border-radius: 40px;
     border: 1px solid white;
     text-indent: 15px;
@@ -734,6 +760,11 @@
     color: white;
 }
 
+.button {
+    justify-content: center;
+    padding: 10px
+}
+
 
 /** Roteiro **/
 
@@ -884,6 +915,10 @@
     text-indent: 15px;
 }
 
+.e-mail {
+    display: inline;
+    position: relative;
+}  
 
 
 /** Footer **/
