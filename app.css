@@ -1,0 +1,894 @@
+/****************************
+* GERAL
+****************************/
+
+* { 
+    padding: 0;
+    margin: 0; 
+    outline: none; 
+    font-family: 'SFregular';
+    color:#4a4a4a;
+}
+
+.content {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sub-content {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.sub-title {   
+    font-size: 22px;    
+    line-height: 27px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: 200;
+    font-family: 'SFlight';
+    margin-bottom: 10px;
+}
+
+.title {
+    line-height: 50px;
+    text-align: center;
+    width: 945px;
+    font-size: 42px;
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.see-more {
+    color: rgb(240, 85, 19);
+    border: 1px solid rgb(240, 85, 19);
+    border-radius: 30px;
+    line-height: 38px;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    width: 165px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.full-orange {
+    background-color: rgb(240, 85, 19);
+    border: 1px solid rgb(240, 85, 19);
+    color: white;
+    border-radius: 30px;
+    line-height: 38px;
+    text-align: center;
+    display: table;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media all and (max-width:1200px) and (min-width:960px)
+{
+    .content {
+        width: 960px;
+    }
+
+    .sub-content {
+        width: calc(100% - 20px);
+    }
+}
+
+@media all and (max-width:959px)
+{
+    html {
+        overflow-x: hidden;
+    }
+
+    .content {
+        width: auto;
+        max-width: calc(100% - 40px);
+    }
+
+    .sub-content {
+        width: calc(100% - 20px);
+    }
+
+    
+    .sub-title {   
+        font-size: 18px;    
+        line-height: 20px;
+    }
+
+    .title {
+        line-height: 40px;
+        font-size: 30px;        
+    }
+}
+
+
+/** Font **/
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.font-42 {
+    font-size: 42px;
+}
+
+.font-60 {
+    font-size: 60px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.name {
+    line-height: 26px;
+    font-family: 'SFsemibold';
+}
+
+.description {
+    line-height: 24px;
+}
+
+@media all and (max-width:959px)
+{
+    .font-15, .font-16 {
+        font-size: 12px;
+    }
+    
+    .font-18, .font-20 {
+        font-size: 15px;
+    }
+    
+    .font-28 {
+        font-size: 20px;
+    }
+    
+    .font-42 {
+        font-size: 30px;
+    }
+   
+    .font-60 {
+        font-size: 40px;
+    }
+}
+
+/** Cores **/
+
+.color-gray { 
+    color: gray;
+}
+
+/** BG **/
+
+.bg-color-blue { 
+    background-color: rgba(232,240,243,1.0); 
+}
+
+.bg-color-blue-2 { 
+    background-color: #1EA0C8
+}
+
+.bg-color-blue-3 { 
+    background-color: #074254
+}
+
+.bg-color-white { 
+    background-color: white; 
+}
+
+
+/** Flex **/
+
+.flex-content {
+    display: flex;
+}
+
+.flex-content.flex-center-v {
+    align-items: center;
+}
+
+.flex-content.flex-end-v {
+    align-items: end;
+}
+
+.flex-content > div {
+    display: block;    
+    flex-basis: 0;
+    flex-grow: 1;    
+    flex-shrink: 1;
+}
+
+.flex-content > div.flex-2 {
+    flex-grow: 2;
+}
+
+.flex-content > div.flex-margin-10 {
+    margin: 0 10px;
+}
+
+@media all and (max-width:959px)
+{
+    .flex-content {
+        display: table;
+        width: 100%;
+    }
+
+    .flex-content > div.flex-margin-10 {
+        margin: 0;
+    }
+}
+
+/****************************
+* VIDEO
+****************************/
+
+.video {
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.video video{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+/****************************
+* CONTENTS
+****************************/
+
+/** Head - Right Menu **/
+
+.right-menu .name {
+    font-size: 14px;
+    font-family: 'SFmedium';
+    margin: 20px 0px;
+    color: white;
+}
+
+.right-menu .border {
+    height: 36px;
+    border-radius: 40px;
+    border: 1px solid white;
+    text-indent: 15px;
+}
+
+
+
+/** Explore **/
+
+.explore .flex-content {
+    height:calc(100vh - 65px);
+}
+
+.explore .flex-content .name {
+    color: white;
+    font-family: 'SFbold';
+}
+
+.explore .flex-content .description {
+    color: white;
+    margin: 20px 0;
+}
+
+.explore .flex-content input {
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid white;    
+    text-indent: 15px;    
+}
+
+@media all and (min-width:960px)
+{
+    .explore .flex-content .name {
+        line-height: 70px;
+    }
+    
+    .explore .flex-content .description {
+        line-height: 36px;
+    }
+
+    .explore .flex-content input {
+        float: left;
+        width: 400px;
+        margin-right: 15px;
+    }
+
+    .explore .flex-content a {
+        float: left;
+        width: 168px;
+    }
+}
+
+@media all and (max-width:959px)
+{
+    .explore .flex-content {
+        display: flex;
+    }
+
+    .explore .flex-content .name {
+        line-height: 45px;
+    }
+    
+    .explore .flex-content .description {
+        line-height: 26px;
+    }
+
+    .explore .flex-content input {
+        width: 100%;   
+    }
+}
+
+
+/** Como funciona **/
+
+.como-funciona {
+    padding-bottom: 40px;
+}
+
+.como-funciona > .content{
+    box-shadow: 0px 20px 80px rgba(19,90,112,0.07);
+    border-radius: 18px;
+    background-color: white;
+    padding-top: 60px;
+    position: relative;
+    top: -15vh;
+    margin-bottom: -15vh;
+}
+
+.como-funciona .steps .name {
+    height: 50px;
+}
+
+.como-funciona .steps > div:nth-child(2) {
+    margin:0 calc( (100% - (248px * 3)) / 2 );
+}
+
+.como-funciona .steps > div {
+    width: 248px;
+}
+
+.como-funciona .steps .image img {
+    height: 76px;
+    margin:0 auto 20px;
+    display: table;
+}
+
+.como-funciona .appMobile {
+    margin-top: 20px;    
+}
+
+.como-funciona .appMobile .name {
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.como-funciona .appMobile .description {
+    margin-bottom: 10px;
+}
+
+.como-funciona .appMobile a {
+    margin-left: 5px;
+    float: left;
+}
+
+.como-funciona .appMobile a img{
+    width: 100%;
+}
+
+.como-funciona .appMobile > div:nth-child(2) img {
+    width: 100%;
+}
+
+@media all and (min-width:960px)
+{
+
+    .como-funciona .appMobile > div:nth-child(1) {
+        flex-basis: calc( 100% - 248px);
+    }
+
+    .como-funciona .appMobile > div:nth-child(2) {
+        flex-basis: 248px;
+    }
+
+    .como-funciona .steps {
+        position: relative;
+    }
+
+    .como-funciona .steps > div:nth-child(2):after {
+        content: "";
+        background-image: url(imgs/icon_arrow.svg);
+        height: 15px;
+        width: 32px;
+        display: block;
+        position: absolute;
+        right: calc( ( ( 100% - (248px * 3) ) / 2 - 32px ) / 2 + 248px);
+        top: 30px;
+    }
+
+    .como-funciona .steps > div:nth-child(2):before {
+        content: "";
+        background-image: url(imgs/icon_arrow.svg);
+        height: 15px;
+        width: 32px;
+        display: block;
+        position: absolute;
+        left: calc( ( ( 100% - (248px * 3) ) / 2 - 32px ) / 2 + 248px);
+        top: 30px;
+    }
+}
+
+@media all and (max-width:959px)
+{
+    .como-funciona .steps > div {
+        margin:0 0 20px 0!important;
+    }
+
+    .como-funciona .steps > div {
+        width: auto;
+    }
+
+    .como-funciona .appMobile a {
+        width: 40%;
+    }
+}
+
+/** Destaque **/
+
+.destaque {
+    padding: 40px 0;
+    background-color: white;
+}
+
+.destaque .flex-content  {
+    margin-bottom: 10px;    
+}
+
+.destaque .flex-content > div {
+    height: 190px;
+    position: relative;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.destaque .flex-content > div * {
+    color: white;
+}
+
+.destaque .flex-content .icon {
+    position: absolute;
+    background-color: #1EA0C8;
+    right: 20px;
+    top: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 48px;
+    width: 48px;
+    height: 48px;
+}
+
+.destaque .flex-content > div.saude {
+    background-image: url("imgs/img1.svg");
+}
+
+.destaque .flex-content > div.turismo {
+    background-image: url("imgs/img2.svg");
+}
+
+.destaque .flex-content > div.restauracao {
+    background-image: url("imgs/img3.svg");
+}
+
+.destaque .flex-content > div.veiculos {
+    background-image: url("imgs/img4.svg");
+}
+
+.destaque .flex-content > div.cultura {
+    background-image: url("imgs/img5.svg");
+}
+
+.destaque .flex-content > div.animais {
+    background-image: url("imgs/img6.svg");
+}
+
+@media all and (min-width:960px)
+{
+
+}
+
+@media all and (max-width:959px)
+{
+    .destaque .flex-content > div {
+        margin-bottom: 10px;
+    }
+
+    .destaque .flex-content > div:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+/** Oferta **/
+
+.ofertas {
+    padding: 40px 0;
+}
+
+.ofertas .flex-content {
+    margin-bottom: 40px;
+}
+
+.ofertas .flex-content > div {
+    box-shadow: 0px 1px 2px rgba(15,49,77,0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;   
+}
+
+.ofertas .flex-content > div .image {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.ofertas .flex-content > div .favorito {
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 5px;
+    right: 5px;
+    border-radius: 32px;
+}
+
+.ofertas .flex-content > div .roteiro {
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 43px;
+    right: 5px;
+    border-radius: 32px;
+}
+
+.ofertas .flex-content > div .distance {
+    position: absolute;
+    color: white;
+    right: 5px;
+    bottom: 5px;
+    font-family: 'SFsemibold';
+    font-size: 12px;
+}
+
+.ofertas .flex-content > div .stars {
+    position: absolute;
+    color: white;
+    left: 5px;
+    bottom: 5px;
+    font-size: 15px;
+}
+
+.ofertas .flex-content > div .info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+.ofertas .flex-content > div .name {
+    line-height: 28px;
+    font-family: 'SFsemibold';
+}
+
+.ofertas .flex-content > div .description {
+    font-size: 12px;
+    font-family: 'SFsemibold';
+    color: #727272;
+}
+
+.ofertas .flex-content > div .sub-name {
+    font-size: 12px;
+    font-family: 'SFsemibold';
+    color: #727272;
+}
+
+.ofertas .flex-content > div .oferta {
+    font-family: 'SFsemibold';
+    color: #2e2e2e;
+    margin-bottom: 10px;
+}
+
+.ofertas .flex-content > div .separador {
+    height: 1px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #cfcfcf;
+    display: block;
+}
+
+.ofertas .flex-content > div .time {
+    display: table;
+    width: 100%;
+}
+
+.ofertas .flex-content > div .time div {
+    float: left;
+    margin: 3px 3px 0 0;
+}
+
+.ofertas .flex-content > div .time label {
+    color: #1EA0C8;
+    border: 1px solid #1EA0C8;
+    border-radius: 4px;
+    font-family: 'SFbold';
+    font-size: 15px;
+    width: 40px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: table;
+}
+
+.ofertas .flex-content > div .time span {
+    color: #727272;    
+    font-size: 12px;
+    width: 42px;
+    text-align: center;
+    display: table;
+}
+
+.ofertas .flex-content > div .horario {
+    font-size: 12px;
+    color: #727272;
+    margin-top: 10px ;
+}
+
+.ofertas .flex-content > div .horario .close {
+    color: red;
+}
+
+.ofertas .flex-content > div .horario .open {
+    color: green;
+}
+
+
+@media all and (min-width:960px)
+{
+    .ofertas .flex-content > div {
+        margin-right: 10px;
+    }
+
+    .ofertas .flex-content > div:last-child {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width:959px)
+{
+    .ofertas .flex-content > div {
+        margin-bottom: 10px;
+    }
+
+    .ofertas .flex-content > div:last-child {
+        margin-bottom: 10px;
+    }
+}
+
+/** Comerciante **/
+
+.comerciante {
+    padding: 60px 0;
+    background-image: url(imgs/img11.svg);
+    background-position: center;
+    background-size: cover;    
+}
+
+.comerciante * {
+    color: white;
+}
+
+
+/** Roteiro **/
+
+.roteiro-content {
+    padding: 40px 0;    
+}
+
+
+.roteiro-content .flex-content .box {
+    box-shadow: 0px 1px 2px rgba(15,49,77,0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;   
+}
+
+.roteiro-content .flex-content > div .image {
+    height: 220px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.roteiro-content .flex-content > div .image label {
+    left: 20px;
+    bottom: 20px;
+    background-color: #1EA0C8;
+    border-radius: 20px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 16px;
+}
+
+.roteiro-content .flex-content > div .favorito {
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 5px;
+    right: 5px;
+    border-radius: 32px;
+}
+
+.roteiro-content .flex-content .box .name {
+    margin: 20px;
+    font-size: 22px;
+}
+
+.roteiro-content .flex-content .box .description {
+    margin: 0 20px 20px;
+    font-size: 16px;
+}
+
+.roteiro-content .flex-content .no-box .name {
+    margin: 20px;
+    font-size: 28px;
+    font-family: 'SFsemibold';
+}
+
+.roteiro-content .flex-content .no-box .description {
+    margin: 0 20px 40px;
+    font-size: 21px;
+    font-family: 'SFlight';
+}
+
+.roteiro-content .flex-content .no-box .see-more {
+    margin: 20px;
+}
+
+@media all and (min-width:960px)
+{
+    .roteiro-content .flex-content > div {
+        margin-right: 10px;
+    }
+
+    .roteiro-content .flex-content > div:last-child {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width:959px)
+{
+    .roteiro-content .flex-content > div {
+        margin-bottom: 10px;
+    }
+
+    .roteiro-content .flex-content > div:last-child {
+        margin-bottom: 10px;
+    }
+}
+
+
+/** Shop // ImgemConsumidor e Comerciante **/
+
+.shop {
+    padding: 40px 0;    
+}
+
+.shop .flex-content .name {
+    font-size: 28px;
+}
+
+.shop .flex-content .description {
+    font-size: 22px;
+    font-family: 'SFlight';
+    margin: 20px 0px;
+}
+
+@media all and (min-width:960px)
+{
+    .shop .flex-content > div:nth-child(2) {
+        margin: 0 40px;
+    }
+}
+
+@media all and (max-width:959px)
+{
+    .shop .flex-content img {
+        width: 100%;
+        margin: 50px 0;
+    }
+    
+}
+
+
+/** Newsletter **/
+
+.newsletter {
+    padding: 40px 0; 
+}
+
+.newsletter .flex-content .name {
+    font-size: 12px;
+    font-family: 'SFbold';
+    margin: 20px 0px;
+    color: white;
+}
+
+.newsletter .flex-content input {
+    height: 47px;
+    border-radius: 40px;
+    border: 1px solid white;
+    text-indent: 15px;
+}
+
+
+
+/** Footer **/
+
+
+
+
+

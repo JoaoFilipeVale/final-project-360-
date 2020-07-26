@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'SFbold';
+    src:  url('SFProDisplay-Bold.woff2') format('woff2'),
+            url('SFProDisplay-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SFbolditalic';
+    src:  url('SFProDisplay-BoldItalic.woff2') format('woff2'),
+            url('SFProDisplay-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SFregular';
+    src:  url('SFProDisplay-Regular.woff2') format('woff2'),
+            url('SFProDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SFsemibold';
+    src:  url('SFProDisplay-Semibold.woff2') format('woff2'),
+            url('SFProDisplay-Semibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SFlight';
+    src:  url('SFProText-Light.woff2') format('woff2'),
+            url('SFProText-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SFmedium';
+    src:  url('SFProText-Medium.woff2') format('woff2'),
+            url('SFProText-Medium.woff') format('woff');
+}
