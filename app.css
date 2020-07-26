@@ -312,7 +312,6 @@ body a {
 }
 
 
-
 /** Explore **/
 
 .explore .flex-content {
@@ -923,7 +922,36 @@ body a {
 
 /** Footer **/
 
+.info {
+    padding: 50px 0;    
+}
+
+.description p {
+    font-size: 14px;
+    font-family: 'SFbold';
+    margin: 5px 0px;
+    color: white;
+    list-style-type: none;
+}
 
 
+.description li, b {
+    font-size: 14px;
+    font-family: 'SFregular';
+    margin: 5px 0px;
+    color: white;
+    list-style-type: none;
+}
 
+.description ul {
+    padding-right: 50px;
+}
+
+.separador {
+    height: 1px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #cfcfcf;
+    display: block;
+}
 
