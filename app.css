@@ -1000,6 +1000,18 @@ body a {
     position: relative;
 }  
 
+@media all and (max-width:959px)
+{
+    .newsletter {
+        display: flex;
+        width: 100%;   
+    }
+    .newsletter .e-mail  {
+      margin-top: 20px;
+    }
+}
+
+
 
 /** Footer **/
 
