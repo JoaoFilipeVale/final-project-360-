@@ -180,7 +180,11 @@ body a {
 
 @media all and (max-width:959px)
 {
-    .font-15, .font-16 {
+    .font-15 {
+        font-size: 14px;
+    }
+
+    .font-16 {
         font-size: 12px;
     }
     
@@ -361,6 +365,7 @@ body a {
 .explore .flex-content .description {
     color: white;
     margin: 20px 0;
+    width: 50%;
 }
 
 .explore .flex-content input {
@@ -400,14 +405,17 @@ body a {
 
     .explore .flex-content .name {
         line-height: 45px;
+        width: 100%;
     }
     
     .explore .flex-content .description {
         line-height: 26px;
+        width: 100%;
     }
 
     .explore .flex-content input {
         width: 100%;   
+        margin-bottom: 20px;
     }
 }
 
@@ -798,7 +806,10 @@ body a {
     justify-content: center;
     padding: 10px
 }
-
+.button {
+    justify-content: center;
+    padding: 10px
+}
 @media all and (max-width:959px)
 {
     .button {
