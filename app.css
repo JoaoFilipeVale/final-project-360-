@@ -916,38 +916,34 @@ body a {
 /** Shop // ImgemConsumidor e Comerciante **/
 
 .shop {
-    padding: 40px 0;    
+    padding: 80px 0;  
 }
 
 .shop .flex-content .name {
     font-size: 28px;
+    margin-top: 50px;
 }
 
 .shop .flex-content .description {
     font-size: 22px;
     font-family: 'SFlight';
     margin: 20px 0px;
-}
+} 
 
 @media all and (min-width:960px)
 {
-    }
     .shop .flex-content > div:nth-child(2) {
         margin: 0 40px;
     }
-
 }
 
 @media all and (max-width:959px)
 {
-    .shop .flex-content img {
+    .shop .flex-content .talk img {
+        display: flex;
         width: 100%;
         margin: 50px 0;
     }
-     .shop .flex-content .button {
-       flex-direction: column;
-       
-     }
 
 }
 
