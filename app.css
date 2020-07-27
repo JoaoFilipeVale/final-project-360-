@@ -929,9 +929,7 @@ body a {
     margin: 20px 0px;
 }
 
-@media all and (min-width:960px)
-{
-    }
+@media all and (min-width:960px) {
     .shop .flex-content > div:nth-child(2) {
         margin: 0 40px;
     }
@@ -1082,4 +1080,6 @@ body a {
     display: block;
     margin-bottom: 50px;
 }
+
+
 
