@@ -1000,8 +1000,10 @@ body a {
 /** Footer **/
 
 .footer .info .menu {
+    margin-top: 50px;
     float: left;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .footer .info .menu:last-child {
@@ -1025,6 +1027,7 @@ body a {
 }
 
 .footer .info .social {
+    margin-top: 50px;
     float: right;
 }
 
@@ -1035,12 +1038,12 @@ body a {
 .footer .social > div > div {
     float: right;
     display: table;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     clear: both;
 }
 
 .footer .social > div > div > img {
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .footer .bottom > div:nth-child(1) > img {
@@ -1063,7 +1066,7 @@ body a {
 
 .footer .bottom > div:nth-child(3) * {
     float: left;
-    line-height: 150px;
+    line-height: 210px;
     color: white;
 }
 
@@ -1073,5 +1076,6 @@ body a {
     margin: 10px 0;
     background-color: #cfcfcf;
     display: block;
+    margin-bottom: 50px;
 }
 
