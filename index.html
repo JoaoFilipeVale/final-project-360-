@@ -2,30 +2,35 @@
     <head>
         <title>Shop in Porto</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <meta charset='UTF-8'>
         <link rel="stylesheet" type="text/css" href="fonts/font.css">
         <link rel="stylesheet" type="text/css" href="app.css">
     </head>
     <body>
         <div class='video'>
-            <video autoplay>
+            <video autoplay muted autoplay loop>
                 <source src="ShopinPorto_VideoPromocional.mp4" type="video/mp4">
             </video>
         </div>
 
         <!-- Head -->
         <div class='head p-relative'>
-            <div class='content flex-content'>
+            <div class='content'>
                 <div class='logo'>
                     <img src='imgs/logo.svg'>
                 </div>
             
-                <div class='right-menu name'>
-                    <a href='' title='Linguagem'><img src='./imgs/language.svg' alt='Linguagem'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
-                    <a href='' title='Ajuda'><img src='./imgs/help_icon.svg' alt='Ajuda'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
-                    <a href='' title='Sou Consumidor'><img src='./imgs/ico_consumidor.svg' alt='Consumidor'> Sou Consumidor</a>
-                    <a href='' title='Sou Comerciante' class='border'><img src='./imgs/ico_comerciante.svg' alt='Comenciante'> Sou Comerciante</a>
+                <div class='right-menu'>
+                    <div>
+                        <a href='' title='Linguagem'><img src='./imgs/language.svg' alt='Linguagem'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
+                        <a href='' title='Ajuda'><img src='./imgs/help_icon.svg' alt='Ajuda'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
+                    </div>
+                    <div>
+                        <a href='' title='Sou Consumidor'><img src='./imgs/ico_consumidor.svg' alt='Consumidor'> Sou Consumidor</a>
+                        <a href='' title='Sou Comerciante' class='border'><img src='./imgs/ico_comerciante.svg' alt='Comenciante'> Sou Comerciante</a>
+                    </div>
                 </div>
+            </div>    
         </div>
 
         <!-- Explore -->
@@ -304,12 +309,12 @@
             <div class='content'>                
                 <h3 class='title'>É comerciante?</h3>
                 <h4 class='sub-title color-gray'>Ainda não tem a sua loja publicada no Shop in Porto? Cadastre-se agora!</h4>
-                <div class=''>
-                    <a href="" class="full-orange">PROMOVA AGORA <img src="./imgs/ico_arrow_right2.png" alt="Arrow Right"></a> 
+                <div class='flex-content button'>
+                    <a href='' class="full-orange-2">PROMOVA AGORA <img src="./imgs/ico_arrow_right2.png" alt="Arrow Right"></a> 
                 </div>
     
-                <div class="">
-                    <p>ou Veja o nosso FAQ</p>
+                <div class="flex-content button">
+                    <a href=''>ou <u>Veja o nosso FAQ</u></a>
                 </div>
             </div>      
         </div>
@@ -331,7 +336,7 @@
                         </div>
                         <div class='info'>
                             <div class="name">Hard Rock Café</div>
-                            <div class="description"><img src="./imgs/ico_restauração e bebidas.svg" alt="Restauração e Bebidas"> RESTAURAÇÃO E BEBIDAS</div>
+                            <div class="description"><img src="./imgs/ico_restauracao_e_bebidas.svg" alt="Restauração e Bebidas"> RESTAURAÇÃO E BEBIDAS</div>
                             <div class='horario'>
                                 <label class='close'>Fechado</label> Abre sex. às 10:00
                             </div>  
@@ -381,12 +386,12 @@
                             <div class="name">Maria Algodão</div>
                             <div class="description"><img src="./imgs/ico_moda.svg" alt="Moda Contemporânia"> MODA CONTEMPRÂNIA</div>
                             <div class='horario'>
-                                <label class='open'>Abeto</label> Fecha às 21:00
+                                <label class='open'>Aberto</label> Fecha às 21:00
                             </div>  
                         </div>
                     </div>
-
                 </div>
+
                 <a href='' class='see-more'>Ver todas <img class="center-icon" src="./imgs/ico_arrow_right.png" alt="Arrow Right"></a>
             </div>
         </div>
@@ -427,7 +432,7 @@
                             <label>6 Lojas</label>
                         </div>
                         <div class="name">O Porto visto por Daniel Pires, fundador do Maus Hábitos</div>
-                        <div class="description">DANIEL PIRES é o fundador do Maus Hábitos e da Associação Saco Azul, onde há 18 anos é gestor cultural e diretor artístico</div>
+                        <div class="description">Daniel Pires é o fundador do Maus Hábitos e da Associação Saco Azul, onde há 18 anos é gestor cultural e diretor artístico</div>
                     </div>
                 </div>
 
@@ -472,14 +477,91 @@
                     </div>
                     <div class='e-mail'>
                         <input placeholder="Seu endereço de e-mail" />
+                        <button type='submit'><img src="./imgs/ico_arrow_right_blue.svg" alt="Arrow Right bg-color-blue"></button>
                     </div>
                 </div>
             </div>
         </div>
 
+
+        <!-- Footer -->
         <div class='footer bg-color-blue-3 p-relative'>
             <div class='content'>
-                
+               <div class='info flex-content'>
+                   
+                    <div class='left'>
+                        <div class='menu'>
+                            <p>CÂMERA MUNUCIPAL DO PORTO</p>
+                            <ul>
+                                <li><b>Telefone:</b> +351 222 097 140</li>
+                                <li><b>Email:</b> shopinport@cm-porto.pt</li>
+                                <li>Entre em <b>Contacto</b></li>
+                            </ul>
+                        </div> 
+                    </div> 
+
+                    <div class='center'>
+                        <div class='menu'>
+                            <p>SHOP IN PORTO</p>
+                            <ul>
+                                <li>Todas as Lojas</li>
+                                <li>Roteiros</li>
+                                <li>Hoje no Porto</li>
+                                <li>Promoções</li>
+                                <li>Top Lojas</li>
+                            </ul>
+                        </div> 
+
+                        <div class='menu'>
+                            <p>MY SIP</p>
+                            <ul>
+                                <li>Login</li>
+                                <li>Resgisto</li>
+                            </ul>
+                        </div> 
+
+                        <div class='menu'>
+                            <p>INFORMAÇÃO LEGAL</p>
+                            <ul>
+                                <li>Avisos legais e privacidade</li>
+                                <li>Termos e condições de uso</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="social">
+                        <div>
+                            <div class=""><img src="./imgs/ico_facebook.png" alt="Facebook"><img src="./imgs/ico_twitter.png" alt="Twitter"><img src="./imgs/ico_instagram.png" alt="Instagram"></div>
+                            <div class=""><img src="./imgs/btn_ajuda.png" alt="Ajuda"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="separador"></div>
+
+                <div class='bottom flex-content'>
+                   
+                    <div>
+                        <img src="./imgs/logo_porto.png" alt="Logo Porto">
+                        <div>
+                            <p>O QUÉ O SHOP IN PORTO</p>
+                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Curabitur venenatis at dui Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Curabitur venenatis at dui.</div>
+                        </div> 
+                    </div>
+
+                    <div>
+                        <p>Faça o download da nossa app e junte-se a nós!<p>
+                        <a href=""><img src="./imgs/img16.svg" alt="Google Play"></a>
+                        <a href="" ><img src="./imgs/img17.svg" alt="Apple Store"></a>
+                    </div>
+
+                    <div>
+                        <a href=""><img src="./imgs/arrow_slide.png" alt="Slide Top"></a>                    
+                        <p class=>Copyright @ Câmara Municipal do Porto 2019</p>
+                    </div>
+                </div>
             </div>
         </div>
 
