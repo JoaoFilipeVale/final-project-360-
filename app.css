@@ -516,6 +516,7 @@ body a {
         left: calc( ( ( 100% - (248px * 3) ) / 2 - 32px ) / 2 + 248px);
         top: 30px;
     }
+    
 }
 
 @media all and (max-width:959px)
@@ -806,10 +807,7 @@ body a {
     justify-content: center;
     padding: 10px
 }
-.button {
-    justify-content: center;
-    padding: 10px
-}
+
 @media all and (max-width:959px)
 {
     .button {
@@ -933,9 +931,11 @@ body a {
 
 @media all and (min-width:960px)
 {
+    }
     .shop .flex-content > div:nth-child(2) {
         margin: 0 40px;
     }
+
 }
 
 @media all and (max-width:959px)
@@ -944,7 +944,11 @@ body a {
         width: 100%;
         margin: 50px 0;
     }
-    
+     .shop .flex-content .button {
+       flex-direction: column;
+       
+     }
+
 }
 
 
