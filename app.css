@@ -181,7 +181,7 @@ body a {
 @media all and (max-width:959px)
 {
     .font-15 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .font-16 {
@@ -516,6 +516,9 @@ body a {
         left: calc( ( ( 100% - (248px * 3) ) / 2 - 32px ) / 2 + 248px);
         top: 30px;
     }
+    .flex-content .flex-center-v .appMobile {
+        display: flex;
+    }
     
 }
 
@@ -532,6 +535,7 @@ body a {
     .como-funciona .appMobile a {
         width: 40%;
     }
+
 }
 
 /** Destaque **/
@@ -927,7 +931,7 @@ body a {
 .shop .flex-content .description {
     font-size: 22px;
     font-family: 'SFlight';
-    margin: 20px 0px;
+    margin: 40px 0px;
 } 
 
 @media all and (min-width:960px)
@@ -943,6 +947,12 @@ body a {
         display: flex;
         width: 100%;
         margin: 50px 0;
+    }
+    .shop .flex-content .right {
+        display: table;
+    }
+    .shop .flex-content .right p{
+        float: right;
     }
 
 }
