@@ -934,7 +934,10 @@ body a {
     margin: 40px 0px;
 } 
 
-@media all and (min-width:960px)
+.shop .flex-content .button a {
+    width: 70%;
+}
+@media all and (max-width:1200px) and (min-width:960px)
 {
     .shop .flex-content > div:nth-child(2) {
         margin: 0 40px;
@@ -951,9 +954,11 @@ body a {
     .shop .flex-content .left {
         display: flex;
         flex-direction: column-reverse;
+        margin-bottom: 0px;
     }
     .shop .flex-content .left .description {
         text-align: center;
+        margin-bottom: 0px;
       } 
     .shop .flex-content .right p{
         float: right;
