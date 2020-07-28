@@ -534,6 +534,10 @@ body a {
 
     .como-funciona .appMobile a {
         width: 40%;
+        margin-bottom: 20px;
+    }
+    .como-funciona .appMobile > div:nth-child(2) img {
+        display: none;
     }
 
 }
@@ -934,9 +938,6 @@ body a {
     margin: 40px 0px;
 } 
 
-.shop .flex-content .button a {
-    width: 70%;
-}
 @media all and (max-width:1200px) and (min-width:960px)
 {
     .shop .flex-content > div:nth-child(2) {
@@ -1099,7 +1100,7 @@ body a {
 }
 
 .footer .bottom > div:nth-child(3) * {
-    float: left;
+    float: right;
     line-height: 210px;
     color: white;
 }
@@ -1112,6 +1113,27 @@ body a {
     display: block;
     margin-bottom: 50px;
 }
+
+@media all and (max-width:959px)
+{
+    .footer .info {
+        display: flex;
+        flex-direction: column;  
+    }
+    .footer .info .social {
+        margin-top: 0px;
+    }
+
+    .footer .bottom > div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .footer .bottom  > div > img {
+       width: 20%;
+    }
+}
+
 
 
 
