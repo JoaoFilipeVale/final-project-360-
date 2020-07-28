@@ -14,13 +14,13 @@
         </div>
 
         <!-- Head -->
-        <div class='head p-relative'>
+        <header class='head p-relative'>
             <div class='content'>
                 <div class='logo'>
                     <img src='imgs/logo.svg'>
                 </div>
             
-                <div class='right-menu'>
+                <nav class='right-menu' id='id="Topnav"'>
                     <div>
                         <a href='' title='Linguagem'><img src='./imgs/language.svg' alt='Linguagem'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
                         <a href='' title='Ajuda'><img src='./imgs/help_icon.svg' alt='Ajuda'><img src='./imgs/arrow_drop_down.svg' alt='Arrow Down'></a>
@@ -29,9 +29,9 @@
                         <a href='' title='Sou Consumidor'><img src='./imgs/ico_consumidor.svg' alt='Consumidor'> Sou Consumidor</a>
                         <a href='' title='Sou Comerciante' class='border'><img src='./imgs/ico_comerciante.svg' alt='Comenciante'> Sou Comerciante</a>
                     </div>
-                </div>
+                </nav>
             </div>    
-        </div>
+        </header>
 
         <!-- Explore -->
         <div class='explore p-relative'>
@@ -183,19 +183,20 @@
                             <div class="sub-name">OFERTA:</div>
                             <div class="oferta">Presunto Transmontano</div>
                             <div class="sub-name">EXPIRA EM:</div>
-                            <div class='time'>
+                            <div class='time' id="clockdiv">
                                 <div>
-                                    <label>19</label>
+                                    <label class="hours" id="hour">19</label>
                                     <span>Horas</span>
                                 </div>
                                 <div>
-                                    <label>15</label>
+                                    <label class="minutes" id="minute">15</label>
                                     <span>Minutos</span>
                                 </div>
                                 <div>
-                                    <label>19</label>
+                                    <label class="seconds" id="second">19</label>
                                     <span>Segs</span>
                                 </div>
+                                <p id="demo"></p> 
                             </div>
                         </div>
                     </div>

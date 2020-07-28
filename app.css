@@ -313,6 +313,7 @@ body a {
 .head .logo {
     float: left;
     padding: 5px 0;
+    margin-top: 10px;
 }
 
 .head .right-menu {
@@ -344,9 +345,10 @@ body a {
 }
 
 
+
 @media all and (max-width:959px)
 {
-    .head .right-menu {
+    .right-menu  a:not(:first-child) {
         display: none;
     }
 }
@@ -756,7 +758,15 @@ body a {
 .ofertas .flex-content > div .time span {
     color: #727272;    
     font-size: 12px;
-    width: 42px;
+    width: 50px;
+    text-align: center;
+    display: table;
+}
+
+.ofertas .flex-content > div .time p {
+    color: rgb(240, 85, 19);
+    font-family: 'SFbold';
+    font-size: 15px;
     text-align: center;
     display: table;
 }
