@@ -946,14 +946,21 @@ body a {
     .shop .flex-content .talk img {
         display: flex;
         width: 100%;
-        margin: 50px 0;
+        margin-top: 50px;
     }
-    .shop .flex-content .right {
-        display: table;
+    .shop .flex-content .left {
+        display: flex;
+        flex-direction: column-reverse;
     }
+    .shop .flex-content .left .description {
+        text-align: center;
+      } 
     .shop .flex-content .right p{
         float: right;
     }
+    .shop .flex-content .right .description {
+      text-align: center;
+    } 
 
 }
 
